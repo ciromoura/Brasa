@@ -5,7 +5,7 @@
 // Exemplo: Jogador pressiona DIREITA, que retorna 1 e é subtraído por ESQUERDA, que não está pressionado,
 // retornando 0, a subtração resulta em 1 e é multiplicado pela velocidade
 
-var inputX = keyboard_check(keybinds.right) - keyboard_check(keybinds.left)
+inputX = keyboard_check(keybinds.right) - keyboard_check(keybinds.left)
 
 if inputX != 0{
 	image_xscale = inputX
