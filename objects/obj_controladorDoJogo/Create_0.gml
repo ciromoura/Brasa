@@ -19,3 +19,10 @@ var keybinds = {
 
 scr_setBinds(keybinds)
 
+// Outrás variáveis =======================================================
+// Alguns exemplos para cá são a câmera ser estática ou não e outras coisas
+
+larguraCam = camera_get_view_width(view_camera[0])
+alturaCam = camera_get_view_height(view_camera[0])
+alvoCam = obj_jogador
+global.cameraEstatica = false
