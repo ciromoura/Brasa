@@ -12,3 +12,4 @@ if distance_to_object(obj_jogador) > rangemin
 	instance_destroy(obj_fala)
 }
 
+///shape
