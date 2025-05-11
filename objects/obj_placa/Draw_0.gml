@@ -1,4 +1,4 @@
-var texto = "Use as setas para se mover. Você pode pular pressionando a tecla Z."
+var texto = textoPlaca
 var _texto = string_copy(texto,0,caractere)
 draw_set_font(fnt_dialogo)
 if instance_exists(obj_fala)
