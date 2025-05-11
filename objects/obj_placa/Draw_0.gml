@@ -5,7 +5,7 @@ if instance_exists(obj_fala)
 {
 	if obj_fala.acabou = true
 	{
-		draw_text_ext(obj_placa.x -190,obj_placa.y - 390, _texto,32, 380)
+		draw_text_ext(x -190,y - 390, _texto,32, 380)
 		depth = -1
 	}
 }
