@@ -1,0 +1,7 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_hud","order":1,"path":"objects/obj_hud/obj_hud.yy",},
+    {"name":"spr_lifebar","order":1,"path":"sprites/spr_lifebar/spr_lifebar.yy",},
+  ],
+}
