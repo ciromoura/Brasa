@@ -46,6 +46,7 @@
     {"id":{"name":"scr_Particulas","path":"scripts/scr_Particulas/scr_Particulas.yy",},},
     {"id":{"name":"spr_arvore","path":"sprites/spr_arvore/spr_arvore.yy",},},
     {"id":{"name":"spr_backgroundFloresta","path":"sprites/spr_backgroundFloresta/spr_backgroundFloresta.yy",},},
+    {"id":{"name":"spr_coracaoHp","path":"sprites/spr_coracaoHp/spr_coracaoHp.yy",},},
     {"id":{"name":"spr_fala","path":"sprites/spr_fala/spr_fala.yy",},},
     {"id":{"name":"spr_lifebar","path":"sprites/spr_lifebar/spr_lifebar.yy",},},
     {"id":{"name":"spr_particulaGrama","path":"sprites/spr_particulaGrama/spr_particulaGrama.yy",},},
