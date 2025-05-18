@@ -1,0 +1,1 @@
+global.life += 20

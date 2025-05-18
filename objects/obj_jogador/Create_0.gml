@@ -4,6 +4,8 @@
 
 global.maxSpeed = 10
 global.currentSpeed = 0
+global.life = 100
+global.maxLife = 100
 
 alturaMaxPulo = -13
 gravidade = 0.6
