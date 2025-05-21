@@ -41,6 +41,7 @@
     {"id":{"name":"obj_passBy","path":"objects/obj_passBy/obj_passBy.yy",},},
     {"id":{"name":"obj_placa","path":"objects/obj_placa/obj_placa.yy",},},
     {"id":{"name":"obj_smoke","path":"objects/obj_smoke/obj_smoke.yy",},},
+    {"id":{"name":"obj_trepadeira","path":"objects/obj_trepadeira/obj_trepadeira.yy",},},
     {"id":{"name":"rm_tutorial01","path":"rooms/rm_tutorial01/rm_tutorial01.yy",},},
     {"id":{"name":"scr_Binds","path":"scripts/scr_Binds/scr_Binds.yy",},},
     {"id":{"name":"scr_Particulas","path":"scripts/scr_Particulas/scr_Particulas.yy",},},
