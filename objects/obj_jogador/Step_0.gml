@@ -102,3 +102,13 @@ if particleTimer <= 0{
 
 
 #endregion
+
+#region Wallslide
+var wall = place_meeting(x + sign(jumpSpeed), y, obj_colisor)
+if wall{
+	if (jumpSpeed > 1){
+		jumpSpeed = 3
+		// Resumidamente, quando entra em contato com a parede, o seu y fica um pouco menor, logo "deslizando" na parede
+	}
+}
+#endregion
