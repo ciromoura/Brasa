@@ -112,3 +112,29 @@ if wall{
 	}
 }
 #endregion
+#region Trepadeira
+if place_meeting(x,y,obj_trepadeira)
+{
+	seatrepou = true
+}
+if !place_meeting(x,y,obj_trepadeira)
+{
+	seatrepou = false
+}
+if seatrepou = true
+{
+	jumpSpeed = 0
+	gravidade = 0
+	if keyboard_check(vk_up)
+	{
+		y-= 5
+	}
+	if keyboard_check(vk_down)
+	{
+		y+= 5
+	}
+}
+else
+{
+	gravidade = 0.6
+}

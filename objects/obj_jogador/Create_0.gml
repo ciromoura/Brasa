@@ -15,6 +15,7 @@ coyoteTime = 0
 prevCoyoteTime = coyoteTime
 jumpSpeed = 0
 particleTimer = 0
+seatrepou = false
 
 
 keybinds = scr_getBinds()
