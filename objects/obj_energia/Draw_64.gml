@@ -1,0 +1,1 @@
+draw_healthbar(x + 12,y + 7, x+515,y - 15, (global.life/global.maxLife)*100, c_black, make_color_rgb(0, 28, 39),make_color_rgb(6, 174, 232),0,true,true)
