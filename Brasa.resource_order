@@ -1,8 +1,10 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"obj_hudfome","order":3,"path":"objects/obj_hudfome/obj_hudfome.yy",},
     {"name":"obj_trepadeira","order":2,"path":"objects/obj_trepadeira/obj_trepadeira.yy",},
     {"name":"spr_coracaoHp","order":2,"path":"sprites/spr_coracaoHp/spr_coracaoHp.yy",},
+    {"name":"spr_fomeHud","order":1,"path":"sprites/spr_fomeHud/spr_fomeHud.yy",},
     {"name":"spr_lifebar","order":3,"path":"sprites/spr_lifebar/spr_lifebar.yy",},
     {"name":"spr_particulaGrama","order":1,"path":"sprites/spr_particulaGrama/spr_particulaGrama.yy",},
   ],

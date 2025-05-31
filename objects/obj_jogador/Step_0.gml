@@ -23,7 +23,7 @@ if inputX != 0{
 }
 else{
 	global.currentSpeed = lerp(global.currentSpeed,0,0.2)
-	moveSpeed = global.currentSpeed * image_xscale
+	moveSpeed = (global.currentSpeed * image_xscale) * speedMultiplier
 }
 
 // Colisão horizontal + vertical =========================================================================
