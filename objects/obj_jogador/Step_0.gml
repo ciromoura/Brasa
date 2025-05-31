@@ -7,9 +7,18 @@
 
 inputX = keyboard_check(keybinds.right) - keyboard_check(keybinds.left)
 
+// Correr:
+var correr = keyboard_check(keybinds.run)
+	if correr{
+		var runValue = global.maxSpeedRun
+	}
+	else{
+		var runValue = global.maxSpeed
+	}
+
 if inputX != 0{
 	image_xscale = inputX
-	global.currentSpeed = lerp(global.currentSpeed,global.maxSpeed,0.8)
+	global.currentSpeed = lerp(global.currentSpeed,runValue,0.8)
 	var moveSpeed = inputX * global.currentSpeed
 }
 else{
@@ -125,11 +134,11 @@ if seatrepou = true
 {
 	jumpSpeed = 0
 	gravidade = 0
-	if keyboard_check(vk_up)
+	if keyboard_check(keybinds.up)
 	{
 		y-= 5
 	}
-	if keyboard_check(vk_down)
+	if keyboard_check(keybinds.down)
 	{
 		y+= 5
 	}
@@ -138,3 +147,6 @@ else
 {
 	gravidade = 0.6
 }
+
+
+

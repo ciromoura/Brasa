@@ -3,6 +3,7 @@
 // partes do jogo, e por isso são globais
 
 global.maxSpeed = 10
+global.maxSpeedRun = 13
 global.currentSpeed = 0
 global.life = 100
 global.maxLife = 100
