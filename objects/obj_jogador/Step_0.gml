@@ -120,6 +120,13 @@ if wall{
 		// Resumidamente, quando entra em contato com a parede, o seu y fica um pouco menor, logo "deslizando" na parede
 	}
 }
+var wall2 = place_meeting(x - sign(jumpSpeed), y, obj_colisor)
+if wall2{
+	if (jumpSpeed > 1){
+		jumpSpeed = 3
+		// Resumidamente, quando entra em contato com a parede, o seu y fica um pouco menor, logo "deslizando" na parede
+	}
+}
 #endregion
 #region Trepadeira
 if place_meeting(x,y,obj_trepadeira)
@@ -138,7 +145,7 @@ if seatrepou = true
 	{
 		y-= 5
 	}
-	if keyboard_check(keybinds.down)
+	if keyboard_check(keybinds.down) and !place_meeting(x,y+5,obj_colisor)
 	{
 		y+= 5
 	}
@@ -147,6 +154,6 @@ else
 {
 	gravidade = 0.6
 }
-
+#endregion
 
 
