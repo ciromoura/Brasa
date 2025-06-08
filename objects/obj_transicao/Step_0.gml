@@ -1,4 +1,4 @@
-if room = rm_tutorial02
+if (mudei)
 {
 	alpha -= .02
 }

@@ -157,4 +157,54 @@ else
 }
 #endregion
 
+#region Ataque
+if mouse_check_button_pressed(mb_left)
+{
+	ds_list_clear(inimigos_atingidos)
+	image_index = 0
+	estado = "atacando"
+}
+if estado = "atacando"
+{
+	var inimigos_na_hitbox = ds_list_create()
+
+	var inimigos = instance_place_list(x,y,obj_inimigo,inimigos_na_hitbox,false)
+
+	if (inimigos) > 0
+	{
+		for (var i = 0; i < inimigos; i++)
+		{
+			var inimigoID = inimigos_na_hitbox[| i]
+		
+			if (ds_list_find_index(inimigos_atingidos,inimigoID)) == -1
+			{
+				ds_list_add(inimigos_atingidos,inimigoID)
+			
+				with (inimigoID)
+				{
+					vida -= 1
+		
+				}
+			}
+		}
+	}ds_list_destroy(inimigos_na_hitbox)
+}
+
+switch estado
+{
+	case "parado":
+	sprite_index = spr_placeholderArrow
+	mask_index = spr_placeholderArrow
+	break
+
+	case "atacando":
+	sprite_index = spr_placeholder_atk
+	mask_index = spr_placeholder_atk_hb
+	break
+}
+
+
+
+
+#endregion
 

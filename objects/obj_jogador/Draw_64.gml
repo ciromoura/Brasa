@@ -9,4 +9,25 @@ draw_healthbar(24,104,537,127, (global.energia/ global.maxEnergia) * 100, make_c
 draw_sprite(spr_lifebar,0,0,-19)
 draw_sprite(spr_energiabar, 0, 0, 35)
 
- 
+
+//Sistema de fome
+if global.fome >= 4{
+	draw_sprite(spr_fomehud, 0, 1152, 56)
+}
+if global.fome = 3{
+	draw_sprite(spr_fomehud, 1, 1152, 56)
+}
+if global.fome = 2{
+	draw_sprite(spr_fomehud, 2, 1152, 56)
+}
+if global.fome = 1{
+	draw_sprite(spr_fomehud, 3, 1152, 56)
+}
+if global.fome <= 0{
+	draw_sprite(spr_fomehud, 4, 1152, 56)	
+}
+
+
+
+
+
