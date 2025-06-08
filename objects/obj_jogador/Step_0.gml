@@ -4,6 +4,7 @@
 // Movimento para os lados, pegando o valor da direção do personagem e multiplicando pela velocidade
 // Exemplo: Jogador pressiona DIREITA, que retorna 1 e é subtraído por ESQUERDA, que não está pressionado,
 // retornando 0, a subtração resulta em 1 e é multiplicado pela velocidade
+if instance_exists(obj_transicao) exit
 
 inputX = keyboard_check(keybinds.right) - keyboard_check(keybinds.left)
 
