@@ -7,7 +7,6 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_49ACDE60_1","path":"rooms/rm_tutorial02/rm_tutorial02.yy",},
-    {"name":"inst_3343A1F2_1","path":"rooms/rm_tutorial02/rm_tutorial02.yy",},
     {"name":"inst_2576D488_1","path":"rooms/rm_tutorial02/rm_tutorial02.yy",},
     {"name":"inst_77678130_1","path":"rooms/rm_tutorial02/rm_tutorial02.yy",},
     {"name":"inst_7E0107FE_1","path":"rooms/rm_tutorial02/rm_tutorial02.yy",},
@@ -115,7 +114,6 @@
         ],"TileDataFormat":1,},"tilesetId":{"name":"tls_grama","path":"tilesets/tls_grama/tls_grama.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"lay_instances","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_49ACDE60_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_49ACDE60_1","objectId":{"name":"obj_controladorDoJogo","path":"objects/obj_controladorDoJogo/obj_controladorDoJogo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-96.0,"y":0.0,},
-        {"$GMRInstance":"v2","%Name":"inst_3343A1F2_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3343A1F2_1","objectId":{"name":"obj_jogador","path":"objects/obj_jogador/obj_jogador.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":76.0,"y":544.0,},
         {"$GMRInstance":"v2","%Name":"inst_2B23A9FF_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2B23A9FF_1","objectId":{"name":"obj_placa","path":"objects/obj_placa/obj_placa.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_placa","path":"objects/obj_placa/obj_placa.yy",},"propertyId":{"name":"textoPlaca","path":"objects/obj_placa/obj_placa.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Utilize as trepadeiras para fazer saltos perigosos. Também podem ser usadas para escalar.\"",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_placa","path":"objects/obj_placa/obj_placa.yy",},"propertyId":{"name":"txtembaixo","path":"objects/obj_placa/obj_placa.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},

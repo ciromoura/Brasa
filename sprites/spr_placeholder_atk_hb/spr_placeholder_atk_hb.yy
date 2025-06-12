@@ -3,7 +3,7 @@
   "%Name":"spr_placeholder_atk_hb",
   "bboxMode":0,
   "bbox_bottom":105,
-  "bbox_left":80,
+  "bbox_left":0,
   "bbox_right":127,
   "bbox_top":3,
   "collisionKind":4,

@@ -182,7 +182,7 @@ if estado = "atacando"
 			
 				with (inimigoID)
 				{
-					vida -= 1
+					currenthealth -= 1
 		
 				}
 			}

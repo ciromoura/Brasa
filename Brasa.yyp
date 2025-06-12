@@ -32,6 +32,7 @@
   "name":"Brasa",
   "resources":[
     {"id":{"name":"fnt_dialogo","path":"fonts/fnt_dialogo/fnt_dialogo.yy",},},
+    {"id":{"name":"obj_colisor_inimigo","path":"objects/obj_colisor_inimigo/obj_colisor_inimigo.yy",},},
     {"id":{"name":"obj_colisor","path":"objects/obj_colisor/obj_colisor.yy",},},
     {"id":{"name":"obj_controladorDoJogo","path":"objects/obj_controladorDoJogo/obj_controladorDoJogo.yy",},},
     {"id":{"name":"obj_fala","path":"objects/obj_fala/obj_fala.yy",},},
