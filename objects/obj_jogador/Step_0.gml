@@ -182,7 +182,7 @@ if estado = "atacando"
 			
 				with (inimigoID)
 				{
-					currenthealth -= 1
+					currenthealth -= random_range(15,20)
 		
 				}
 			}

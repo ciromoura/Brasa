@@ -18,3 +18,4 @@ if instance_exists(obj_fala) and txtembaixo = true
 		depth = -1
 	}
 }
+draw_set_font(-1)
