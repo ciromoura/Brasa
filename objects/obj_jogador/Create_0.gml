@@ -10,6 +10,7 @@ global.maxLife = 100
 global.energia = 100
 global.maxEnergia = 100
 global.fome = 4
+global.coin = 0
 
 alturaMaxPulo = -13
 gravidade = 0.6

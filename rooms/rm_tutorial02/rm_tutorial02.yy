@@ -54,6 +54,7 @@
     {"name":"inst_5E67A4BD_1","path":"rooms/rm_tutorial02/rm_tutorial02.yy",},
     {"name":"inst_74927411_1","path":"rooms/rm_tutorial02/rm_tutorial02.yy",},
     {"name":"inst_5D7EDCEA","path":"rooms/rm_tutorial02/rm_tutorial02.yy",},
+    {"name":"inst_424A4A49","path":"rooms/rm_tutorial02/rm_tutorial02.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -128,6 +129,11 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_nextroom","path":"objects/obj_nextroom/obj_nextroom.yy",},"propertyId":{"name":"destino_x","path":"objects/obj_nextroom/obj_nextroom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"76",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_nextroom","path":"objects/obj_nextroom/obj_nextroom.yy",},"propertyId":{"name":"destino_y","path":"objects/obj_nextroom/obj_nextroom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"544",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":4.09375,"x":4999.0,"y":451.0,},
+        {"$GMRInstance":"v2","%Name":"inst_424A4A49","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_424A4A49","objectId":{"name":"obj_nextroom","path":"objects/obj_nextroom/obj_nextroom.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_nextroom","path":"objects/obj_nextroom/obj_nextroom.yy",},"propertyId":{"name":"destino","path":"objects/obj_nextroom/obj_nextroom.yy",},"resource":{"name":"rm_tutorial01","path":"rooms/rm_tutorial01/rm_tutorial01.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_tutorial01",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_nextroom","path":"objects/obj_nextroom/obj_nextroom.yy",},"propertyId":{"name":"destino_x","path":"objects/obj_nextroom/obj_nextroom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4874",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_nextroom","path":"objects/obj_nextroom/obj_nextroom.yy",},"propertyId":{"name":"destino_y","path":"objects/obj_nextroom/obj_nextroom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"544",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":4.4375,"x":-48.0,"y":430.0,},
       ],"layers":[],"name":"lay_instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"lay_passby_1","depth":500,"effectEnabled":true,"effectType":"_filter_tintfilter","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_C45566B_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_C45566B_1_1","objectId":{"name":"obj_passBy","path":"objects/obj_passBy/obj_passBy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":3412.0,"y":420.0,},
