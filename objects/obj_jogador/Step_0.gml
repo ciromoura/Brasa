@@ -4,6 +4,7 @@
 // Movimento para os lados, pegando o valor da direção do personagem e multiplicando pela velocidade
 // Exemplo: Jogador pressiona DIREITA, que retorna 1 e é subtraído por ESQUERDA, que não está pressionado,
 // retornando 0, a subtração resulta em 1 e é multiplicado pela velocidade
+if instance_exists(obj_transicao) exit
 
 inputX = keyboard_check(keybinds.right) - keyboard_check(keybinds.left)
 
@@ -23,7 +24,7 @@ if inputX != 0{
 }
 else{
 	global.currentSpeed = lerp(global.currentSpeed,0,0.2)
-	moveSpeed = (global.currentSpeed * image_xscale) * speedMultiplier
+	moveSpeed = global.currentSpeed * image_xscale
 }
 
 // Colisão horizontal + vertical =========================================================================
@@ -120,6 +121,13 @@ if wall{
 		// Resumidamente, quando entra em contato com a parede, o seu y fica um pouco menor, logo "deslizando" na parede
 	}
 }
+var wall2 = place_meeting(x - sign(jumpSpeed), y, obj_colisor)
+if wall2{
+	if (jumpSpeed > 1){
+		jumpSpeed = 3
+		// Resumidamente, quando entra em contato com a parede, o seu y fica um pouco menor, logo "deslizando" na parede
+	}
+}
 #endregion
 #region Trepadeira
 if place_meeting(x,y,obj_trepadeira)
@@ -138,7 +146,7 @@ if seatrepou = true
 	{
 		y-= 5
 	}
-	if keyboard_check(keybinds.down)
+	if keyboard_check(keybinds.down) and !place_meeting(x,y+5,obj_colisor)
 	{
 		y+= 5
 	}
@@ -147,6 +155,56 @@ else
 {
 	gravidade = 0.6
 }
+#endregion
+
+#region Ataque
+if mouse_check_button_pressed(mb_left)
+{
+	ds_list_clear(inimigos_atingidos)
+	image_index = 0
+	estado = "atacando"
+}
+if estado = "atacando"
+{
+	var inimigos_na_hitbox = ds_list_create()
+
+	var inimigos = instance_place_list(x,y,obj_inimigo,inimigos_na_hitbox,false)
+
+	if (inimigos) > 0
+	{
+		for (var i = 0; i < inimigos; i++)
+		{
+			var inimigoID = inimigos_na_hitbox[| i]
+		
+			if (ds_list_find_index(inimigos_atingidos,inimigoID)) == -1
+			{
+				ds_list_add(inimigos_atingidos,inimigoID)
+			
+				with (inimigoID)
+				{
+					currenthealth -= random_range(15,20)
+		
+				}
+			}
+		}
+	}ds_list_destroy(inimigos_na_hitbox)
+}
+
+switch estado
+{
+	case "parado":
+	sprite_index = spr_placeholderArrow
+	mask_index = spr_placeholderArrow
+	break
+
+	case "atacando":
+	sprite_index = spr_placeholder_atk
+	mask_index = spr_placeholder_atk_hb
+	break
+}
 
 
+
+
+#endregion
 
