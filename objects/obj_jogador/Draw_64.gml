@@ -14,7 +14,7 @@ if room = rm_tutorial03
 	draw_set_halign(fa_center)
 	draw_set_valign(fa_top)
 	draw_set_font(fnt_count)
-	draw_text(80,room_height-105,string(global.coin))
+	draw_text(75,room_height-105,string(global.coin))
 	draw_set_halign(-1)
 	draw_set_valign(-1)
 	draw_set_font(-1)
