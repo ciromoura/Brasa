@@ -30,6 +30,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"textoPlaca","filters":[],"listItems":[],"multiselect":false,"name":"textoPlaca","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Texto texto texto\"","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"txtembaixo","filters":[],"listItems":[],"multiselect":false,"name":"txtembaixo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

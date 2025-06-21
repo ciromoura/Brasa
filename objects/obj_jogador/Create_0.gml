@@ -10,8 +10,8 @@ global.maxLife = 100
 global.energia = 100
 global.maxEnergia = 100
 global.fome = 4
+global.coin = 0
 
-speedMultiplier = 1
 alturaMaxPulo = -13
 gravidade = 0.6
 coyoteTime = 0
@@ -19,6 +19,7 @@ prevCoyoteTime = coyoteTime
 jumpSpeed = 0
 particleTimer = 0
 seatrepou = false
-
+inimigos_atingidos = ds_list_create()
+estado = "parado"
 
 keybinds = scr_getBinds()
