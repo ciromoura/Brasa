@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_hudfome",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_UI",
+  "eventList":[],
   "managed":true,
-  "name":"obj_hudfome",
+  "name":"obj_UI",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
