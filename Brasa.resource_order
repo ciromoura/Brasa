@@ -3,7 +3,6 @@
   "ResourceOrderSettings":[
     {"name":"fnt_count","order":1,"path":"fonts/fnt_count/fnt_count.yy",},
     {"name":"obj_coin","order":9,"path":"objects/obj_coin/obj_coin.yy",},
-    {"name":"obj_colisor_inimigo","order":7,"path":"objects/obj_colisor_inimigo/obj_colisor_inimigo.yy",},
     {"name":"obj_inimigo","order":5,"path":"objects/obj_inimigo/obj_inimigo.yy",},
     {"name":"obj_inimigobola","order":6,"path":"objects/obj_inimigobola/obj_inimigobola.yy",},
     {"name":"obj_nextroom","order":3,"path":"objects/obj_nextroom/obj_nextroom.yy",},

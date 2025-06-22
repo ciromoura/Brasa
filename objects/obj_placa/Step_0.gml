@@ -5,6 +5,8 @@
 	caractere = 0
 	criou = true
 }
+//checa se o jogador está perto e se o texto deve ser gerado em cima ou embaixo
+//cria uma instância contendo o texto que será exibido
 
  if distance_to_object(obj_jogador) < rangemin and criou = false and txtembaixo = true
 {
@@ -20,7 +22,5 @@ if distance_to_object(obj_jogador) > rangemin and criou
 		instance_destroy(balao)
 	}
 	criou = false
-
 }
-
-///shape
+//destrói a instância caso o jogador se afaste

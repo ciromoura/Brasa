@@ -24,7 +24,7 @@ switch estado
 			}
 		}
 		break;
-		
+		//percorre uma certa distância, assim que a distância percorrida for maior que a total, muda de direção e repete o processo
 	case state.pertoplayer:
 
 		break;

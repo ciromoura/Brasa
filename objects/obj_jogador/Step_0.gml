@@ -129,6 +129,7 @@ if wall2{
 	}
 }
 #endregion
+
 #region Trepadeira
 if place_meeting(x,y,obj_trepadeira)
 {
@@ -155,6 +156,9 @@ else
 {
 	gravidade = 0.6
 }
+//quando entra em contato com a trepadeira, o jogador pode mover-se livremente, mas
+//o pulo e a gravidade são desligados, dando o efeito de "escalada"
+
 #endregion
 
 #region Ataque
@@ -166,20 +170,25 @@ if mouse_check_button_pressed(mb_left)
 }
 if estado = "atacando"
 {
+	//criando uma lista para chcar os inimigos atingidos em cada frame
 	var inimigos_na_hitbox = ds_list_create()
-
+	//colocar o ID dos inimigos atingidos dentro da lista
 	var inimigos = instance_place_list(x,y,obj_inimigo,inimigos_na_hitbox,false)
-
+	
+	//se tiver algum inimigo atingido
 	if (inimigos) > 0
 	{
+		//usar o loop para checar o ID de cada inimigo atingido
 		for (var i = 0; i < inimigos; i++)
 		{
+			//o ID de cada inimigo
 			var inimigoID = inimigos_na_hitbox[| i]
-		
+			
+			//comparar o ID do inimigo na lista local com a lista de inimigos atingidos do jogador
 			if (ds_list_find_index(inimigos_atingidos,inimigoID)) == -1
 			{
 				ds_list_add(inimigos_atingidos,inimigoID)
-			
+				//o que será feito com o inimigo
 				with (inimigoID)
 				{
 					currenthealth -= random_range(15,20)

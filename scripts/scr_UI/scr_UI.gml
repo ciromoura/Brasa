@@ -1,1 +1,0 @@
-global.coin = 0

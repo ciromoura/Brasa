@@ -8,3 +8,5 @@ if (player)
 	tran.destino_x = destino_x
 	tran.destino_y = destino_y
 }
+
+//checa se o jogador colidiu, se sim, gera a transição de sala

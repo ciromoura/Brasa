@@ -19,3 +19,6 @@ if instance_exists(obj_fala) and txtembaixo = true
 	}
 }
 draw_set_font(-1)
+
+//checa se o balão de fala está no ultimo frame
+//imprime o texto que será gerado no balão de fala

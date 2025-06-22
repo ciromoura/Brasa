@@ -1,4 +1,4 @@
-// Cãmera =====================================================================
+// Câmera =====================================================================
 // Esse trecho é dedicado a fazer a câmera seguir o jogador invés de ficar
 // estática
 
