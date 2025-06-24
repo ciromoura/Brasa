@@ -26,3 +26,7 @@ larguraCam = camera_get_view_width(view_camera[0])
 alturaCam = camera_get_view_height(view_camera[0])
 alvoCam = obj_jogador
 global.cameraEstatica = false
+
+global.moeda_pitch = 1.0
+global.tempo_moeda_max = 60
+global.tempo_moeda_contador = 0

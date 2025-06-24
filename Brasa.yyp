@@ -53,6 +53,7 @@
     {"id":{"name":"rm_tutorial03","path":"rooms/rm_tutorial03/rm_tutorial03.yy",},},
     {"id":{"name":"scr_Binds","path":"scripts/scr_Binds/scr_Binds.yy",},},
     {"id":{"name":"scr_Particulas","path":"scripts/scr_Particulas/scr_Particulas.yy",},},
+    {"id":{"name":"snd_coin","path":"sounds/snd_coin/snd_coin.yy",},},
     {"id":{"name":"spr_arvore","path":"sprites/spr_arvore/spr_arvore.yy",},},
     {"id":{"name":"spr_backgroundFloresta","path":"sprites/spr_backgroundFloresta/spr_backgroundFloresta.yy",},},
     {"id":{"name":"spr_coin","path":"sprites/spr_coin/spr_coin.yy",},},
