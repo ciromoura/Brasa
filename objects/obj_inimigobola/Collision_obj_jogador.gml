@@ -8,5 +8,5 @@ if obj_jogador.estado != "atacando" and obj_jogador.podeseratacado = true
 	obj_jogador.podeseratacado = false
 	obj_jogador.alarm[0] = obj_jogador.tempoimune
 }
-
+//a
 #endregion
