@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_trepadeira",
-    "path":"sprites/spr_trepadeira/spr_trepadeira.yy",
+    "name":"spr_placeholder2",
+    "path":"sprites/spr_placeholder2/spr_placeholder2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

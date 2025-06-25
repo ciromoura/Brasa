@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_trepadeira",
-    "path":"sprites/spr_trepadeira/spr_trepadeira.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

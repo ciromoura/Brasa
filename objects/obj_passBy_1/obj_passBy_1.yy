@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_trepadeiraReta",
-    "path":"sprites/spr_trepadeiraReta/spr_trepadeiraReta.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

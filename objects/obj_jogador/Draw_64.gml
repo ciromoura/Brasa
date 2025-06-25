@@ -6,8 +6,7 @@ draw_healthbar(50,45,550,65, (global.life/ global.maxLife) * 100, make_color_rgb
 draw_healthbar(24,104,537,127, (global.energia/ global.maxEnergia) * 100, make_color_rgb(14, 14, 14), make_color_rgb(50, 5, 5), c_yellow, 0, 1, 1)
 
 //sprite da vida e da energia:
-draw_sprite(spr_lifebar,0,0,-19)
-draw_sprite(spr_energiabar, 0, 0, 35)
+
 
 //Sprite que mostra a quantidade de dinheiro
 if room = rm_tutorial03
@@ -24,21 +23,6 @@ if room = rm_tutorial03
 
 
 //Sistema de fome
-if global.fome >= 4{
-	draw_sprite(spr_fomehud, 0, 1152, 56)
-}
-if global.fome = 3{
-	draw_sprite(spr_fomehud, 1, 1152, 56)
-}
-if global.fome = 2{
-	draw_sprite(spr_fomehud, 2, 1152, 56)
-}
-if global.fome = 1{
-	draw_sprite(spr_fomehud, 3, 1152, 56)
-}
-if global.fome <= 0{
-	draw_sprite(spr_fomehud, 4, 1152, 56)	
-}
 
 
 
