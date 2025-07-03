@@ -192,7 +192,7 @@ if estado = "atacando"
 				with (inimigoID)
 				{
 					currenthealth -= random_range(15,20)
-		
+					obj_controladorDoJogo.shakevalue = 1
 				}
 			}
 		}
