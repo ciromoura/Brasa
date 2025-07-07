@@ -6,6 +6,7 @@
     {"name":"obj_inimigo","order":5,"path":"objects/obj_inimigo/obj_inimigo.yy",},
     {"name":"obj_inimigobola","order":6,"path":"objects/obj_inimigobola/obj_inimigobola.yy",},
     {"name":"obj_nextroom","order":3,"path":"objects/obj_nextroom/obj_nextroom.yy",},
+    {"name":"obj_particleSetup","order":10,"path":"objects/obj_particleSetup/obj_particleSetup.yy",},
     {"name":"obj_pickup","order":8,"path":"objects/obj_pickup/obj_pickup.yy",},
     {"name":"obj_transicao","order":4,"path":"objects/obj_transicao/obj_transicao.yy",},
     {"name":"obj_trepadeira","order":2,"path":"objects/obj_trepadeira/obj_trepadeira.yy",},

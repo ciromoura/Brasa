@@ -39,6 +39,7 @@
     {"id":{"name":"obj_inimigobola","path":"objects/obj_inimigobola/obj_inimigobola.yy",},},
     {"id":{"name":"obj_jogador","path":"objects/obj_jogador/obj_jogador.yy",},},
     {"id":{"name":"obj_nextroom","path":"objects/obj_nextroom/obj_nextroom.yy",},},
+    {"id":{"name":"obj_particleSetup","path":"objects/obj_particleSetup/obj_particleSetup.yy",},},
     {"id":{"name":"obj_passBy_1","path":"objects/obj_passBy_1/obj_passBy_1.yy",},},
     {"id":{"name":"obj_passBy","path":"objects/obj_passBy/obj_passBy.yy",},},
     {"id":{"name":"obj_pickup","path":"objects/obj_pickup/obj_pickup.yy",},},

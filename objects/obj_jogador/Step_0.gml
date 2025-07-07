@@ -109,6 +109,15 @@ if particleTimer <= 0{
 	
 	particleTimer = 0.5
 }
+fade_timer --
+if keyboard_check(keybinds.run)
+{
+	if fade_timer <= 0
+	{
+		fade_timer = fade_time
+		part_particles_create(obj_particleSetup.particleSystem,x,y,obj_particleSetup.particleType,1)
+	}
+}
 
 
 #endregion
