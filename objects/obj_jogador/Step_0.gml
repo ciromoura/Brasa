@@ -25,8 +25,11 @@ if inputX != 0{
 else{
 	global.currentSpeed = lerp(global.currentSpeed,0,0.2)
 	moveSpeed = global.currentSpeed * image_xscale
+	if global.energia <100
+	{
+		global.energia += 0.2
+	}
 }
-
 // Colisão horizontal + vertical =========================================================================
 // Verifica se há colisões e trava a velocidade nesses casos. A colisão vertical é um pouco mais 
 // elaborada que a condição horizontal devido a gravidade, mas nada demais
