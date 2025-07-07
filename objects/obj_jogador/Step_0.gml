@@ -209,6 +209,7 @@ if estado = "atacando"
 				{
 					currenthealth -= random_range(15,20)
 					obj_controladorDoJogo.shakevalue = 1
+					travar_tela(30)
 				}
 			}
 		}

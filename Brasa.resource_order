@@ -11,6 +11,7 @@
     {"name":"obj_trepadeira","order":2,"path":"objects/obj_trepadeira/obj_trepadeira.yy",},
     {"name":"rm_tutorial02","order":2,"path":"rooms/rm_tutorial02/rm_tutorial02.yy",},
     {"name":"rm_tutorial03","order":1,"path":"rooms/rm_tutorial03/rm_tutorial03.yy",},
+    {"name":"scr_travartela","order":1,"path":"scripts/scr_travartela/scr_travartela.yy",},
     {"name":"spr_coin","order":4,"path":"sprites/spr_coin/spr_coin.yy",},
     {"name":"spr_fala","order":6,"path":"sprites/spr_fala/spr_fala.yy",},
     {"name":"spr_inimigo","order":3,"path":"sprites/spr_inimigo/spr_inimigo.yy",},
