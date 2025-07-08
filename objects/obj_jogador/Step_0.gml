@@ -264,3 +264,4 @@ escalaY = lerp(escalaY,sign(escalaY),0.3)
 global.energia = clamp(global.energia,0,global.maxEnergia)
 global.life = clamp(global.life,0,global.maxLife)
 #endregion
+
