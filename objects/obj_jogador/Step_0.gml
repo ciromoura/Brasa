@@ -10,21 +10,32 @@ inputX = keyboard_check(keybinds.right) - keyboard_check(keybinds.left)
 
 // Correr:
 var correr = keyboard_check(keybinds.run)
+	if inputX != 0 and correr{
+		global.energia -= 0.6
+	}
+	else{
+		global.energia += 0.3
+	}
 	if correr{
 		var runValue = global.maxSpeedRun
 	}
 	else{
 		var runValue = global.maxSpeed
 	}
+if keyboard_check_pressed(keybinds.left){
+	escalaX = -1
+}
+else if keyboard_check_pressed (keybinds.right){
+	escalaX = 1
+}
 
 if inputX != 0{
-	image_xscale = inputX
 	global.currentSpeed = lerp(global.currentSpeed,runValue,0.8)
 	var moveSpeed = inputX * global.currentSpeed
 }
 else{
 	global.currentSpeed = lerp(global.currentSpeed,0,0.2)
-	moveSpeed = global.currentSpeed * image_xscale
+	moveSpeed = global.currentSpeed * escalaX
 	if global.energia <100
 	{
 		global.energia += 0.2
@@ -54,6 +65,8 @@ x += moveSpeed
 // aquela mecanica que o pulo é mais alto conforme você segura o botão
 
 if keyboard_check_pressed(keybinds.jump) and coyoteTime > 0{
+	escalaX = 0.5 * sign(escalaX)
+	escalaY = 1.5 * sign(escalaY)
 	jumpSpeed = alturaMaxPulo
     coyoteTime = 0    
 }
@@ -135,7 +148,7 @@ if wall{
 				scr_criarParticula(x+sprite_width/2,y,depth+1,spr_particulaGrama,random_range(180,90)*inputX,2*inputX,0.06)
 			}
 	
-			particleTimer = 5
+			particleTimer = 3
 }
 		jumpSpeed = 3
 		// Resumidamente, quando entra em contato com a parede, o seu y fica um pouco menor, logo "deslizando" na parede
@@ -147,7 +160,7 @@ if wall2{
 		particleTimer--
 		if particleTimer <= 0{
 			if jumpSpeed >0{
-				scr_criarParticula(x-32,y,depth+1,spr_particulaGrama,random_range(180,90)*inputX,2*inputX,0.06)
+				scr_criarParticula(x-32,y+32,depth+1,spr_particulaGrama,random_range(180,90)*inputX,2*inputX,0.06)
 			}
 	
 			particleTimer = 5
@@ -232,7 +245,7 @@ switch estado
 {
 	case "parado":
 	sprite_index = spr_placeholderArrow
-	mask_index = spr_placeholderArrow
+	mask_index = spr_placeholder
 	break
 
 	case "atacando":
@@ -241,8 +254,13 @@ switch estado
 	break
 }
 
-
+escalaX = lerp(escalaX,sign(escalaX),0.3)
+escalaY = lerp(escalaY,sign(escalaY),0.3)
 
 
 #endregion
 
+#region Limitações
+global.energia = clamp(global.energia,0,global.maxEnergia)
+global.life = clamp(global.life,0,global.maxLife)
+#endregion

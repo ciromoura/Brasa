@@ -57,6 +57,7 @@
     {"id":{"name":"spr_coin","path":"sprites/spr_coin/spr_coin.yy",},},
     {"id":{"name":"spr_fala","path":"sprites/spr_fala/spr_fala.yy",},},
     {"id":{"name":"spr_inimigo","path":"sprites/spr_inimigo/spr_inimigo.yy",},},
+    {"id":{"name":"spr_particulaBrilho","path":"sprites/spr_particulaBrilho/spr_particulaBrilho.yy",},},
     {"id":{"name":"spr_particulaGrama","path":"sprites/spr_particulaGrama/spr_particulaGrama.yy",},},
     {"id":{"name":"spr_placa","path":"sprites/spr_placa/spr_placa.yy",},},
     {"id":{"name":"spr_placeholder_atk_hb","path":"sprites/spr_placeholder_atk_hb/spr_placeholder_atk_hb.yy",},},
