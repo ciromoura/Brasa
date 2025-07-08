@@ -29,7 +29,7 @@ if (global.tempo_moeda_contador >0)
 
 //Aqui é quando o boneco está próximo da morte, onde ele fica com a tela borrada.
 #region
-if global.life < 15{
+if global.fome <= 1{
 	layer_set_visible(layer_get_id("lay_efeitodesfoque"),true)
 }
 

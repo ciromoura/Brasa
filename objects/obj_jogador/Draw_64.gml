@@ -21,8 +21,10 @@ if room = rm_tutorial03
 	draw_set_font(-1)
 }
 
-
-//Sistema de fome
+//Sprite que irá assumir o overlay quando está próximo da morte
+if global.life <= 1{
+	draw_sprite(spr_overlay, 0, 0, 0)	
+}
 
 
 
