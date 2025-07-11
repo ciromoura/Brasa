@@ -11,8 +11,8 @@
   "name":"obj_inimigobola",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Personagens",
+    "path":"folders/Objetos/Personagens.yy",
   },
   "parentObjectId":{
     "name":"obj_inimigo",

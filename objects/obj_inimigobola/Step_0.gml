@@ -1,4 +1,5 @@
-switch estado
+// State Machine do inimigo
+switch estado  
 {
 	case state.longeplayer:
 		if dir = 0
