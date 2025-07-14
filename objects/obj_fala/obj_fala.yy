@@ -9,8 +9,8 @@
   "name":"obj_fala",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"HUD",
+    "path":"folders/Objetos/HUD.yy",
   },
   "parentObjectId":null,
   "persistent":false,

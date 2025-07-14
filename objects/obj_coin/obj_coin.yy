@@ -8,8 +8,8 @@
   "name":"obj_coin",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Coletáveis",
+    "path":"folders/Objetos/Coletáveis.yy",
   },
   "parentObjectId":{
     "name":"obj_pickup",

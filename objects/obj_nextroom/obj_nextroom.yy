@@ -9,8 +9,8 @@
   "name":"obj_nextroom",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Controlador",
+    "path":"folders/Objetos/Controlador.yy",
   },
   "parentObjectId":null,
   "persistent":false,

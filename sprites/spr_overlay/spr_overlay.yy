@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Efeitos",
-    "path":"folders/Sprites/Efeitos.yy",
+    "name":"HUD",
+    "path":"folders/Sprites/HUD.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

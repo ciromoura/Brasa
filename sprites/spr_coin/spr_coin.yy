@@ -33,8 +33,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Elementos",
-    "path":"folders/Sprites/Elementos.yy",
+    "name":"Coletáveis",
+    "path":"folders/Sprites/Coletáveis.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

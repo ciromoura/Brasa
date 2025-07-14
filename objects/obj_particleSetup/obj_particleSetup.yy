@@ -9,8 +9,8 @@
   "name":"obj_particleSetup",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Efeitos",
+    "path":"folders/Objetos/Efeitos.yy",
   },
   "parentObjectId":null,
   "persistent":true,
