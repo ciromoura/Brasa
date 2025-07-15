@@ -257,6 +257,37 @@ if estado = "atacando"
 	}ds_list_destroy(inimigos_na_hitbox)
 }
 
+//apenas mantendo a fome dentre um eixo de 1 a 4
+if global.fome < 1{
+global.fome = 1	
+}
+
+if global.fome > 4{
+	global.fome = 4
+}
+//Mudanças na Fome dependendo da vida:
+#region
+if global.fome = 2{
+	global.maxSpeed = 8
+	global.maxSpeedRun = 10
+	alturaMaxPulo = -10
+}
+
+else if global.fome = 1{
+	global.maxSpeed = 5
+	global.maxSpeedRun = 7
+	alturaMaxPulo = -7
+}
+
+else{
+	global.maxSpeed = 10
+	global.maxSpeedRun = 13
+	alturaMaxPulo = -13
+}
+
+
+#endregion
+
 switch estado
 {
 	case "parado":
