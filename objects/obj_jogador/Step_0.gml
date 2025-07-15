@@ -32,8 +32,24 @@ else if keyboard_check_pressed (keybinds.right){
 if inputX != 0{
 	global.currentSpeed = lerp(global.currentSpeed,runValue,0.8)
 	var moveSpeed = inputX * global.currentSpeed
+	if inputX != 0 and place_meeting(x,y+1,obj_colisor) and global.currentSpeed !=0
+	{
+		tempopisadas --
+		if tempopisadas <= 0 
+		{
+			audio_play_sound(snd_walk,1,0)
+			audio_sound_pitch(snd_walk,random_range(0.8,1.2))
+			tempopisadas = 16
+		}
+	}
+	if !place_meeting(x,y+1,obj_colisor)
+	{
+		tempopisadas = 1
+	}
 }
+
 else{
+	tempopisadas = 1
 	global.currentSpeed = lerp(global.currentSpeed,0,0.2)
 	moveSpeed = global.currentSpeed * escalaX
 	if global.energia <100

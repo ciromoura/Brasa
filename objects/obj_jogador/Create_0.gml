@@ -25,6 +25,7 @@ inimigos_atingidos = ds_list_create()
 tempoimune = 90
 podeseratacado = true
 alarm[0] = tempoimune
+tempopisadas = 16
 fade_timer = 2
 fade_time = fade_timer
 estado  = "parado"
