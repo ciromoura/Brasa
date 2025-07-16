@@ -150,7 +150,7 @@ if keyboard_check(keybinds.run)
 		part_particles_create(obj_particleSetup.particleSystem,x,y,obj_particleSetup.particleType,1)
 	}
 }
-
+alpha = lerp(alpha,0,0.1)
 
 #endregion
 
@@ -248,9 +248,10 @@ if estado = "atacando"
 				//o que será feito com o inimigo
 				with (inimigoID)
 				{
+					alpha = 1
 					currenthealth -= random_range(15,20)
 					obj_controladorDoJogo.shakevalue = 1
-					travar_tela(30)
+					travar_tela(60)
 				}
 			}
 		}

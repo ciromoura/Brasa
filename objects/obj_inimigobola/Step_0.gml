@@ -1,4 +1,9 @@
 // State Machine do inimigo
+alpha = lerp(alpha,0,0.1)
+if currenthealth <=0 
+{
+	instance_destroy()
+}
 switch estado  
 {
 	case state.longeplayer:

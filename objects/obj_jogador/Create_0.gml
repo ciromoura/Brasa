@@ -14,6 +14,7 @@ global.money = 0
 
 escalaX = 1
 escalaY = 1
+alpha = 0
 alturaMaxPulo = -13
 gravidade = 0.6
 coyoteTime = 0
