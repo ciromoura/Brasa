@@ -219,7 +219,7 @@ else
 #endregion
 
 #region Ataque
-if mouse_check_button_pressed(mb_left)
+if keyboard_check_pressed(keybinds.attack)
 {
 	ds_list_clear(inimigos_atingidos)
 	image_index = 0
@@ -251,7 +251,7 @@ if estado = "atacando"
 					alpha = 1
 					currenthealth -= random_range(15,20)
 					obj_controladorDoJogo.shakevalue = 1
-					travar_tela(70)
+					travar_tela(40)
 				}
 			}
 		}

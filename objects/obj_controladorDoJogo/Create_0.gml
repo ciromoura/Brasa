@@ -14,7 +14,10 @@ var keybinds = {
 	down: vk_down,
 	up: vk_up,
 	jump: ord("Z"),
-	run: ord("X")
+	run: vk_shift,
+	attack: ord("X"),
+	dash: ord("C"),
+	menu: vk_escape
 }
 
 scr_setBinds(keybinds)
