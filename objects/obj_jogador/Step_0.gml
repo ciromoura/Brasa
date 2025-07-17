@@ -251,7 +251,7 @@ if estado = "atacando"
 					alpha = 1
 					currenthealth -= random_range(15,20)
 					obj_controladorDoJogo.shakevalue = 1
-					travar_tela(60)
+					travar_tela(70)
 				}
 			}
 		}
@@ -271,7 +271,7 @@ if global.fome > 4{
 if global.fome = 2{
 	global.maxSpeed = 8
 	global.maxSpeedRun = 10
-	alturaMaxPulo = -10
+	alturaMaxPulo = -11
 }
 
 else if global.fome = 1{
