@@ -200,7 +200,7 @@ if seatrepou = true
 {
 	jumpSpeed = 0
 	gravidade = 0
-	if keyboard_check(keybinds.up)
+	if keyboard_check(keybinds.up) and !place_meeting(x,y-5,obj_colisor)
 	{
 		y-= 5
 	}

@@ -56,6 +56,7 @@
     {"id":{"name":"obj_smoke","path":"objects/obj_smoke/obj_smoke.yy",},},
     {"id":{"name":"obj_transicao","path":"objects/obj_transicao/obj_transicao.yy",},},
     {"id":{"name":"obj_trepadeira","path":"objects/obj_trepadeira/obj_trepadeira.yy",},},
+    {"id":{"name":"rm_inicial","path":"rooms/rm_inicial/rm_inicial.yy",},},
     {"id":{"name":"rm_tutorial01","path":"rooms/rm_tutorial01/rm_tutorial01.yy",},},
     {"id":{"name":"rm_tutorial02","path":"rooms/rm_tutorial02/rm_tutorial02.yy",},},
     {"id":{"name":"rm_tutorial03","path":"rooms/rm_tutorial03/rm_tutorial03.yy",},},
@@ -83,6 +84,7 @@
     {"roomId":{"name":"rm_tutorial01","path":"rooms/rm_tutorial01/rm_tutorial01.yy",},},
     {"roomId":{"name":"rm_tutorial02","path":"rooms/rm_tutorial02/rm_tutorial02.yy",},},
     {"roomId":{"name":"rm_tutorial03","path":"rooms/rm_tutorial03/rm_tutorial03.yy",},},
+    {"roomId":{"name":"rm_inicial","path":"rooms/rm_inicial/rm_inicial.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
