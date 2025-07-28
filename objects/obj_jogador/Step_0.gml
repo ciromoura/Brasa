@@ -135,7 +135,7 @@ if jumpSpeed > 30{
 // Particulas ao caminhar
 particleTimer--
 if particleTimer <= 0{
-	if jumpSpeed = 0 and inputX != 0{
+	if jumpSpeed = 0 and inputX != 0 and seatrepou = false{
 		scr_criarParticula(x,y+sprite_height/2,depth+1,spr_particulaGrama,random_range(180,90)*inputX,2*inputX,0.06)
 	}
 	
@@ -207,6 +207,14 @@ if seatrepou = true
 	if keyboard_check(keybinds.down) and !place_meeting(x,y+5,obj_colisor)
 	{
 		y+= 5
+	}
+	if keyboard_check(keybinds.right) and !place_meeting(x+5,y,obj_colisor)
+	{
+		x-= 4
+	}
+	if keyboard_check(keybinds.left) and !place_meeting(x-5,y,obj_colisor)
+	{
+		x+= 4
 	}
 }
 else
