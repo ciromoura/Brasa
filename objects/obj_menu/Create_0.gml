@@ -2,11 +2,12 @@
 #region
 opcao1 =
 {
-    texto : "BRASA - Jogar",
+    texto : "Jogar",
     
     funcao : function()
     {
-        room_goto_next()    
+		instance_create_layer(0,0,"Instances",obj_transicao)
+		
     },
 }
 
