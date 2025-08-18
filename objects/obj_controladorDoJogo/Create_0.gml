@@ -35,3 +35,4 @@ shakevalue = 0
 global.moeda_pitch = 1.0
 global.tempo_moeda_max = 60
 global.tempo_moeda_contador = 0
+global.volume = 0

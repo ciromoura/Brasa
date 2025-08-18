@@ -33,11 +33,13 @@ opcao3 =
 
 opcao4 =
 {
-    texto : "Conquistas",
+    texto : "Opções",
     
     funcao : function()
     {
-        show_message("Aqui vai aparecer as conquistas")    
+		
+        show_message("Aqui vai aparecer as conquistas")
+		room_goto(rm_opcoes)
     },
 }
 #endregion
