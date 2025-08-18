@@ -30,6 +30,7 @@ else if keyboard_check_pressed (keybinds.right){
 }
 
 if inputX != 0{
+	image_xscale = inputX
 	global.currentSpeed = lerp(global.currentSpeed,runValue,0.8)
 	var moveSpeed = inputX * global.currentSpeed
 	if inputX != 0 and place_meeting(x,y+1,obj_colisor) and global.currentSpeed !=0
@@ -260,10 +261,14 @@ if estado = "atacando"
 					currenthealth -= random_range(15,20)
 					obj_controladorDoJogo.shakevalue = 1
 					travar_tela(40)
+					scr_explosaoParticula(x,y,depth-1,360,20,spr_particulaAtk,15,0.05,0.2)
 				}
 			}
 		}
-	}ds_list_destroy(inimigos_na_hitbox)
+	}
+	
+	ds_list_destroy(inimigos_na_hitbox)
+	
 }
 
 //apenas mantendo a fome dentre um eixo de 1 a 4
@@ -306,12 +311,12 @@ switch estado
 
 	case "atacando":
 	sprite_index = spr_placeholder_atk
-	mask_index = spr_placeholder_atk_hb
+	mask_index = spr_placeholder_atk1_hb
 	break
+	
 }
 
-escalaX = lerp(escalaX,sign(escalaX),0.3)
-escalaY = lerp(escalaY,sign(escalaY),0.3)
+
 
 
 #endregion

@@ -1,8 +1,8 @@
-if room = rm_menu
+if room = rm_menu or room = rm_tutorial01
 {
 	if (mudei)
 	{
-		alpha -= .01
+		alpha -= .06
 	}
 	else
 	{
@@ -10,7 +10,7 @@ if room = rm_menu
 	}
 }
 
-else
+if room != rm_menu
 {
 	if (mudei)
 	{
@@ -31,7 +31,7 @@ if room = rm_menu
 		room_goto_next()
 	}
 }
-else
+if room != rm_menu
 {
 	if (alpha >=1)
 	{

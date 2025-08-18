@@ -1,5 +1,4 @@
-draw_sprite_ext(sprite_index,image_index,x,y,escalaX,escalaY,image_angle,image_blend,image_alpha)
-
+draw_self()
 
 if alpha >0
 {
@@ -9,3 +8,4 @@ if alpha >0
 
 	gpu_set_fog(false,c_red,0,0)
 }
+

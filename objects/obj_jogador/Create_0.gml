@@ -32,4 +32,5 @@ fade_time = fade_timer
 estado  = "parado"
 mask_index = spr_placeholder
 
+
 keybinds = scr_getBinds()
