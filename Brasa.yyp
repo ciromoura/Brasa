@@ -72,7 +72,6 @@
     {"id":{"name":"scr_Binds","path":"scripts/scr_Binds/scr_Binds.yy",},},
     {"id":{"name":"scr_Particulas","path":"scripts/scr_Particulas/scr_Particulas.yy",},},
     {"id":{"name":"scr_travartela","path":"scripts/scr_travartela/scr_travartela.yy",},},
-    {"id":{"name":"scr_volume","path":"scripts/scr_volume/scr_volume.yy",},},
     {"id":{"name":"snd_coin","path":"sounds/snd_coin/snd_coin.yy",},},
     {"id":{"name":"snd_walk","path":"sounds/snd_walk/snd_walk.yy",},},
     {"id":{"name":"spr_coin","path":"sprites/spr_coin/spr_coin.yy",},},

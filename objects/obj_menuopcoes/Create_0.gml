@@ -4,7 +4,7 @@ opcao1 = {
     texto: "Volume",
 
     funcao: function() {
-        aumentar_volume()
+        
     }
 }
 
@@ -12,8 +12,8 @@ opcao2 = {
     texto: "Fullscreen",
 
     funcao: function() {
-        var _isFullscreen = window_get_fullscreen();
-        window_set_fullscreen(!_isFullscreen);
+        var _isFullscreen = window_get_fullscreen()
+        window_set_fullscreen(!_isFullscreen)
     }
 } 
 
@@ -27,9 +27,18 @@ opcao3 =
     },
 }
 
+opcao4 =
+{
+    texto : "Voltar",
+    
+    funcao : function()
+    {
+        room_goto(rm_menu)  
+    },
+}
+
+
 #endregion
 
-menu = [opcao1, opcao2, opcao3]
+menu = [opcao1, opcao2, opcao3, opcao4]
 atual = 0
-// A margem é o ponto horizontal máximo que ele vai, começando do 0
-margem = 0

@@ -9,19 +9,25 @@ if instance_exists(obj_transicao) exit
 inputX = keyboard_check(keybinds.right) - keyboard_check(keybinds.left)
 
 // Correr:
-var correr = keyboard_check(keybinds.run)
-	if inputX != 0 and correr{
-		global.energia -= 0.6
-	}
-	else{
-		global.energia += 0.3
-	}
-	if correr{
-		var runValue = global.maxSpeedRun
-	}
-	else{
-		var runValue = global.maxSpeed
-	}
+if global.energia > 0.1{
+	var correr = keyboard_check(keybinds.run)
+		if inputX != 0 and correr{
+			global.energia -= 0.5
+		}
+		else{
+			global.energia += 0.3
+		}
+		if correr{
+			var runValue = global.maxSpeedRun
+		}
+		else{
+			var runValue = global.maxSpeed
+		}
+}
+
+else{
+	var runValue = global.maxSpeed	
+}	
 if keyboard_check_pressed(keybinds.left){
 	escalaX = -1
 }

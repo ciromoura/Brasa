@@ -38,7 +38,6 @@ opcao4 =
     funcao : function()
     {
 		
-        show_message("Aqui vai aparecer as conquistas")
 		room_goto(rm_opcoes)
     },
 }
@@ -46,5 +45,3 @@ opcao4 =
 
 menu = [opcao1, opcao2, opcao3, opcao4]
 atual = 0
-// A margem é o ponto horizontal máximo que ele vai, começando do 0
-margem = 0
