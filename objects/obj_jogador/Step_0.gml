@@ -81,3 +81,37 @@ if particleTimer <= 0{
 	particleTimer = 0.5
 }
 #endregion
+
+// Wallslide
+#region
+var walldireita = place_meeting(x + sign(jumpSpeed), y, obj_colisor) //Mesma lógica da colisão.
+if walldireita{
+	if (jumpSpeed > 1) and !wallsliding{
+		particleTimer--
+		if particleTimer <= 0{
+			if jumpSpeed >0{
+				scr_criarParticula(x+sprite_width/2,y,depth+1,spr_particulaGrama,random_range(180,90)*inputX,2*inputX,0.06) // Criação da partícula
+			}
+	
+			particleTimer = 3
+}
+		jumpSpeed = 3
+		// Resumidamente, quando entra em contato com a parede, o seu y fica um pouco menor, logo "deslizando" na parede
+	}
+}
+var wallesquerda = place_meeting(x - sign(jumpSpeed), y, obj_colisor) //Mesma lógica da colisão.
+if wallesquerda{
+	if (jumpSpeed > 1) and !wallsliding{
+		particleTimer--
+		if particleTimer <= 0{
+			if jumpSpeed >0{
+				scr_criarParticula(x-32,y+32,depth+1,spr_particulaGrama,random_range(180,90)*inputX,2*inputX,0.06) // Criação da partícula
+			}
+	
+			particleTimer = 5
+}
+		jumpSpeed = 3
+		// Resumidamente, quando entra em contato com a parede, o seu y fica um pouco menor, logo "deslizando" na parede
+	}
+}
+
