@@ -92,7 +92,6 @@ if walldireita{
 			if jumpSpeed >0{
 				scr_criarParticula(x+sprite_width/2,y,depth+1,spr_particulaGrama,random_range(180,90)*inputX,2*inputX,0.06) // Criação da partícula
 			}
-	
 			particleTimer = 3
 }
 		jumpSpeed = 3
@@ -100,6 +99,7 @@ if walldireita{
 	}
 }
 var wallesquerda = place_meeting(x - sign(jumpSpeed), y, obj_colisor) //Mesma lógica da colisão.
+
 if wallesquerda{
 	if (jumpSpeed > 1) and !wallsliding{
 		particleTimer--
@@ -109,9 +109,21 @@ if wallesquerda{
 			}
 	
 			particleTimer = 5
-}
+		}
 		jumpSpeed = 3
 		// Resumidamente, quando entra em contato com a parede, o seu y fica um pouco menor, logo "deslizando" na parede
 	}
 }
+#endregion
+
+
+//WallJump
+if walldireita or wallesquerda{
+	if keyboard_check_pressed(keybinds.jump){
+		jumpSpeed = alturaMaxPulo
+	    global.currentSpeed -= 25
+	}
+}
+
+
 
