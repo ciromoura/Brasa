@@ -6,8 +6,8 @@
   "name":"obj_colisor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Controlador",
-    "path":"folders/Objetos/Controlador.yy",
+    "name":"Controle",
+    "path":"folders/Objetos/Controle.yy",
   },
   "parentObjectId":null,
   "persistent":false,

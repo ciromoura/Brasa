@@ -14,25 +14,11 @@ var keybinds = {
 	down: vk_down,
 	up: vk_up,
 	jump: ord("Z"),
-	run: vk_shift,
-	attack: ord("X"),
-	dash: ord("C"),
-	menu: vk_escape
+	run: ord("X")
 }
 
 scr_setBinds(keybinds)
 
-// Outrás variáveis =======================================================
-// Alguns exemplos para cá são a câmera ser estática ou não e outras coisas
+// Outras variáveis de controle global ============================================================================
 
-larguraCam = camera_get_view_width(view_camera[0])
-alturaCam = camera_get_view_height(view_camera[0])
-alvoCam = obj_jogador
-global.cameraEstatica = false
-shakepower = 10
-shakevalue = 0
-
-global.moeda_pitch = 1.0
-global.tempo_moeda_max = 60
-global.tempo_moeda_contador = 0
-global.volume = 0
+global.pause = true
