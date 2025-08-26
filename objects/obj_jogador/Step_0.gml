@@ -86,12 +86,15 @@ if particleTimer <= 0{
 var walldireita = place_meeting(x + sign(jumpSpeed), y, obj_colisor) //Mesma lógica da colisão.
 var wallesquerda = place_meeting(x - sign(jumpSpeed), y, obj_colisor) //Mesma lógica da colisão.
 
+// Aqui verifica a posição do jogador para a criação das partículas.
 if image_xscale = 1{
 	var posicaoparticula = x+sprite_width/2
 }
 else{
 	var posicaoparticula = x+sprite_width/2+7
 }
+
+// Código especificamente do wallslide:
 if walldireita or wallesquerda{
 	if (jumpSpeed > 1) and !wallsliding{
 		particleTimer--
