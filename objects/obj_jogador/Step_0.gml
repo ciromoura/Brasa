@@ -84,35 +84,25 @@ if particleTimer <= 0{
 
 #region Wallside (clique para abrir)
 var walldireita = place_meeting(x + sign(jumpSpeed), y, obj_colisor) //Mesma lógica da colisão.
-if walldireita{
+var wallesquerda = place_meeting(x - sign(jumpSpeed), y, obj_colisor) //Mesma lógica da colisão.
+
+if image_xscale = 1{
+	var posicaoparticula = x+sprite_width/2
+}
+else{
+	var posicaoparticula = x+sprite_width/2+7
+}
+if walldireita or wallesquerda{
 	if (jumpSpeed > 1) and !wallsliding{
 		particleTimer--
 		if particleTimer <= 0{
 			if jumpSpeed >0{
 				repeat(3){
-					scr_criarParticula(x+sprite_width/2,y-sprite_height/3,depth+1,spr_particulaGrama,random_range(180,90),2,0.06) // Criação da partícula
+					scr_criarParticula(posicaoparticula,y-sprite_height/3,depth+1,spr_particulaGrama,random_range(180,90),2,0.06) // Criação da partícula
 				}
 			}
 			particleTimer = 3
 }
-		jumpSpeed = 3
-		// Resumidamente, quando entra em contato com a parede, o seu y fica um pouco menor, logo "deslizando" na parede
-	}
-}
-var wallesquerda = place_meeting(x - sign(jumpSpeed), y, obj_colisor) //Mesma lógica da colisão.
-
-if wallesquerda{
-	if (jumpSpeed > 1) and !wallsliding{
-		particleTimer--
-		if particleTimer <= 0{
-			if jumpSpeed >0{
-				repeat(3){
-					scr_criarParticula(x-sprite_width/2,y-sprite_height/3,depth+1,spr_particulaGrama,random_range(180,90),-2,0.06) // Criação da partícula
-				}
-			}
-	
-			particleTimer = 5
-		}
 		jumpSpeed = 3
 		// Resumidamente, quando entra em contato com a parede, o seu y fica um pouco menor, logo "deslizando" na parede
 	}
