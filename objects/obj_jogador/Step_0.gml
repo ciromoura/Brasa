@@ -125,3 +125,30 @@ if walldireita or wallesquerda{
 
 #endregion
 
+#region Interação
+//Aqui está sendo criado o sprite da interaçao caso o jogador esteja perto
+//e destruido caso interaja ou esteja longe
+var npc = instance_nearest(x,y,obj_npc)
+
+if distance_to_object(npc) < rangeint and falando = false
+{
+	instance_create_depth(npc.x - 40,npc.y-140,-1,obj_interacao)
+}
+
+if distance_to_object(npc) > rangeint
+{
+	instance_destroy(obj_interacao)
+}
+
+
+//Aqui cria o objeto do dialogo caso o jogador interaja
+if distance_to_object(obj_npc) < rangeint and keyboard_check_pressed(ord("E")) and falando == false
+{
+	var _npc = instance_nearest(x,y,obj_npc)
+	var _dialogo = instance_create_layer(x,y,"Instances",obj_dialogo)
+	_dialogo.npc_nome = _npc.nome
+	falando = true
+	instance_destroy(obj_interacao)
+}
+#endregion
+

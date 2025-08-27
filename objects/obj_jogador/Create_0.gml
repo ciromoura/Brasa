@@ -13,6 +13,8 @@ jumpSpeed = 0
 particleTimer = 0
 jumpSpeedMod = 1
 wallsliding = false
+rangeint = 80
+falando = false
 
 
 keybinds = scr_getBinds()
