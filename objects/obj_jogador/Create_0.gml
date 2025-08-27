@@ -5,7 +5,7 @@
 global.maxSpeed = 10
 global.currentSpeed = 0
 
-alturaMaxPulo = -13
+alturaMaxPulo = -16
 gravidade = 0.6
 coyoteTime = 0
 prevCoyoteTime = coyoteTime
@@ -19,3 +19,5 @@ keybinds = scr_getBinds()
 
 instance_create_depth(x,y,depth,obj_camera)
 instance_create_depth(x,y,depth,obj_controladorDoJogo)
+
+depth = -99

@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_placeholderArrow",
-    "path":"sprites/spr_placeholderArrow/spr_placeholderArrow.yy",
+    "name":"spr_jogadorParado",
+    "path":"sprites/spr_jogadorParado/spr_jogadorParado.yy",
   },
   "spriteMaskId":null,
   "visible":true,
