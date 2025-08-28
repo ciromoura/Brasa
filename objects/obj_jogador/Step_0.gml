@@ -1,5 +1,6 @@
-region Movimentação e colisão (clique para abrir)
+#region Movimentação e colisão (clique para abrir)
 // Movimentação básica =================================================================================
+if !falando{
 inputX = keyboard_check(keybinds.right) - keyboard_check(keybinds.left)
 if inputX != 0{
 	image_xscale = inputX
@@ -70,7 +71,7 @@ if jumpSpeed > 30{
 	jumpSpeed = 30
 }
 #endregion
-
+}
 #region Efeitos visuais (clique para abrir)
 // Partículas ===================================================================================
 particleTimer--
@@ -128,17 +129,7 @@ if walldireita or wallesquerda{
 #region Interação
 //Aqui está sendo criado o sprite da interaçao caso o jogador esteja perto
 //e destruido caso interaja ou esteja longe
-var npc = instance_nearest(x,y,obj_npc)
 
-if distance_to_object(npc) < rangeint and falando = false
-{
-	instance_create_depth(npc.x - 40,npc.y-140,-1,obj_interacao)
-}
-
-if distance_to_object(npc) > rangeint
-{
-	instance_destroy(obj_interacao)
-}
 
 
 //Aqui cria o objeto do dialogo caso o jogador interaja
@@ -148,7 +139,7 @@ if distance_to_object(obj_npc) < rangeint and keyboard_check_pressed(ord("E")) a
 	var _dialogo = instance_create_layer(x,y,"Instances",obj_dialogo)
 	_dialogo.npc_nome = _npc.nome
 	falando = true
-	instance_destroy(obj_interacao)
+	
 }
 #endregion
 

@@ -20,7 +20,7 @@ if init == true
 		draw_rectangle_color(_xx+95,_yy-5,_guix-95,_guiy,c_white,c_white,c_white,c_white,false)
 		draw_rectangle_color(_xx+100,_yy,_guix-100,_guiy,_c,_c,_c,_c,false)
 		draw_text(_xx+110,_yy - 50,texto_grid[# Infos.Nome,pagina])
-		draw_text_ext(_xx +300,_yy +32, _texto,32,_guix - 400)
+		draw_text_ext(_xx +300,_yy +32, _texto,40,_guix - 400)
 		draw_sprite_ext(_sprite,0,195,_guiy-85,0.9,0.9,0,c_white,1)
 	}
 	else
@@ -31,7 +31,7 @@ if init == true
 		draw_rectangle_color(_xx+95,_yy-5,_guix-95,_guiy,c_white,c_white,c_white,c_white,false)
 		draw_rectangle_color(_xx+100,_yy,_guix-100,_guiy,_c,_c,_c,_c,false)
 		draw_text(_guix-110 - _stgw,_yy - 50,texto_grid[# Infos.Nome,pagina])
-		draw_text_ext(_xx +130,_yy +32,_texto,32,_guix - 400)
+		draw_text_ext(_xx +130,_yy +32,_texto,40,_guix - 400)
 		draw_sprite_ext(_sprite,0,_guix - 195,_guiy-85,-0.9,0.9,0,c_white,1)
 	}
 }	

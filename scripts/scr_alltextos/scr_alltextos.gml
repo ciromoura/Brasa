@@ -1,17 +1,30 @@
 function all_textos(){
 	switch npc_nome
 	{
-		case "hom":
-		ds_grid_add_text("Opa, bom dia",spr_hom,0,"Hom")
-		ds_grid_add_text("Sinto que ja vi voce em algum jogo",spr_jogadorParado,1,"Jogador")
-		ds_grid_add_text("Impressao sua",spr_hom,0,"Hom")
-		ds_grid_add_text("blz",spr_jogadorParado,1,"Jogador")
+		case "npc1":
+		ds_grid_add_text("Já estava na hora de voltar, Raimundo. Ninguém demora tanto assim para fazer qualquer coisa que seja.",spr_placeholdernpc,1,"Seringueiro")
+		ds_grid_add_text("Sossega, rapaz. Eu tô aqui a mais tempo que você. Sei o tempo que leva pra fazer cada coisa.",spr_jogadorParado,0,"Jogador")
+		ds_grid_add_text("...",spr_placeholdernpc,1,"Seringueiro")
 		break
 		
-		case "hom2":
-		ds_grid_add_text("Vc de novo",spr_jogadorParado,0,"Jogador")
-		ds_grid_add_text("Sou irmao do outro",spr_hom2,1,"Hom 2")
-		ds_grid_add_text("ata",spr_jogadorParado,0,"Jogador")
+		case "npc2":
+		ds_grid_add_text("Estamos sem ferramentas. A chuva da noite passada levou tudo porque algum lesado deixou elas jogadas por aí.",spr_placeholdernpc,1,"Seringueiro")
+		ds_grid_add_text("Acho que o patrão quer falar alguma coisa com você.",spr_placeholdernpc,1,"Seringueiro")
+		ds_grid_add_text("Oxe, e por que comigo?",spr_jogadorParado,0,"Jogador")
+		ds_grid_add_text("E quem sabe?",spr_placeholdernpc,1,"Seringueiro")
+		break
+		
+		case "patrao":
+		ds_grid_add_text("Bom ver você, Raimundão. Todo mundo tá precisando das ferramentas do armazém. Como você já é mais vivido, preciso que você vá lá.",spr_placeholdernpc,1,"Patrão")
+		ds_grid_add_text(".....",spr_jogadorParado,0,"Jogador")
+		ds_grid_add_text("Vai que eu mando um trabalhador desse e ele dá fim nas coisas por lá, né? Hahaha. Pegue, tá aqui a chave.",spr_placeholdernpc,1,"Patrão")
+		ds_grid_add_text("É, haha... Diabo.",spr_jogadorParado,0,"Jogador")
+		break
+		
+		case "npc4":
+		ds_grid_add_text("O armazém fica subindo esse caminho aí. Mas só entra lá com a chave, o seringalista não dá a qualquer um não.",spr_placeholdernpc,1,"Seringueiro")
+		ds_grid_add_text("Que grande honra ser uma pessoa de confiança, então.",spr_jogadorParado,0,"Jogador")
+		ds_grid_add_text("Ser de confiança? Com aquele cara lá? Prefiro fazer amizade com onça do que com dono de seringal.",spr_placeholdernpc,1,"Seringueiro")
 		break
 		
 	

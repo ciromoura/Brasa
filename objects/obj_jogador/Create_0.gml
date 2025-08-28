@@ -13,7 +13,7 @@ jumpSpeed = 0
 particleTimer = 0
 jumpSpeedMod = 1
 wallsliding = false
-rangeint = 80
+rangeint = 100
 falando = false
 
 
