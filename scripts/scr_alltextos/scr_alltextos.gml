@@ -1,6 +1,3 @@
-//aqui ficará todos os textos do jogo, para adicionar um novo texto é so dar outro case contendo o nome
-//do npc( nao esquecer de atribuir um nome para cada npc em seus creates)
-
 function all_textos(){
 	switch npc_nome
 	{

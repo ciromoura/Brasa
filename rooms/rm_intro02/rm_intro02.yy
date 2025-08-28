@@ -12,6 +12,7 @@
     {"name":"inst_73F69513","path":"rooms/rm_intro02/rm_intro02.yy",},
     {"name":"inst_73787F86","path":"rooms/rm_intro02/rm_intro02.yy",},
     {"name":"inst_3163D243","path":"rooms/rm_intro02/rm_intro02.yy",},
+    {"name":"inst_7019DF7E","path":"rooms/rm_intro02/rm_intro02.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -25,6 +26,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_portal","path":"objects/obj_portal/obj_portal.yy",},"propertyId":{"name":"prox_room","path":"objects/obj_portal/obj_portal.yy",},"resource":{"name":"rm_intro03","path":"rooms/rm_intro03/rm_intro03.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_intro03",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_portal","path":"objects/obj_portal/obj_portal.yy",},"propertyId":{"name":"yTeleport","path":"objects/obj_portal/obj_portal.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1824",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":178.93523,"scaleX":1.0,"scaleY":10.000001,"x":2848.0,"y":320.0,},
+        {"$GMRInstance":"v2","%Name":"inst_7019DF7E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7019DF7E","objectId":{"name":"obj_npc","path":"objects/obj_npc/obj_npc.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1632.0,"y":1616.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets2","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_1FBADF6D_1","animationSpeed":1.0,"colour":4287401100,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_1FBADF6D_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":6.5,"scaleY":3.0,"spriteId":{"name":"spr_placeholder","path":"sprites/spr_placeholder/spr_placeholder.yy",},"x":320.0,"y":672.0,},

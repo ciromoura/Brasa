@@ -1,4 +1,4 @@
-#region Movimentação e colisão (clique para abrir)
+region Movimentação e colisão (clique para abrir)
 // Movimentação básica =================================================================================
 inputX = keyboard_check(keybinds.right) - keyboard_check(keybinds.left)
 if inputX != 0{
