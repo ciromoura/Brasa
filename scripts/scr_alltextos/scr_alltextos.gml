@@ -27,6 +27,13 @@ function all_textos(){
 		ds_grid_add_text("Ser de confiança? Com aquele cara lá? Prefiro fazer amizade com onça do que com dono de seringal.",spr_placeholdernpc,1,"Seringueiro")
 		break
 		
+		case "narradorIntro":
+		ds_grid_add_text("* ( A strange light fills the room. )",spr_placeholdernpc,1,"Narrador")
+		ds_grid_add_text("* ( Twilight is shining through the barrier. )",spr_placeholdernpc,1,"Narrador")
+		ds_grid_add_text("* ( It seems your journey is finally over. )",spr_placeholdernpc,1,"Narrador")
+		ds_grid_add_text("* ( You're filled with DETERMINATION. )",spr_placeholdernpc,1,"Narrador")
+		break
+		
 	
 	}
 }

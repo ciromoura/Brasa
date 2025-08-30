@@ -1,0 +1,2 @@
+nome = "narradorIntro"
+isnarrador = true

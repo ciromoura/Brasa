@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_npc",
+  "%Name":"obj_cutsceneIntro",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_npc",
+  "name":"obj_cutsceneIntro",
   "overriddenProperties":[],
   "parent":{
-    "name":"Npcs",
-    "path":"folders/Objetos/Npcs.yy",
+    "name":"Controle",
+    "path":"folders/Objetos/Controle.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -26,13 +27,14 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"nome","filters":[],"listItems":[],"multiselect":false,"name":"nome","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"npc1\"","varType":2,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_placeholder",
+    "path":"sprites/spr_placeholder/spr_placeholder.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

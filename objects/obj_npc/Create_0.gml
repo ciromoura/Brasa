@@ -1,2 +1,1 @@
-nome = "patrao"
 isnarrador = false

@@ -23,6 +23,14 @@ if init == true
 		draw_text_ext(_xx +300,_yy +32, _texto,40,_guix - 400)
 		draw_sprite_ext(_sprite,0,195,_guiy-85,0.9,0.9,0,c_white,1)
 	}
+	if obj_npc.isnarrador = true
+	{
+		draw_rectangle_color(_xx+95,_yy-5,_guix-95,_guiy,c_white,c_white,c_white,c_white,false)
+		draw_rectangle_color(_xx+100,_yy,_guix-100,_guiy,_c,_c,_c,_c,false)
+		draw_text_ext(_xx +200,_yy +32, _texto,40,_guix - 300)
+	}
+	
+	
 	else
 	{
 		var _stgw = string_width(texto_grid[# Infos.Nome,pagina])

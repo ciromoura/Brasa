@@ -24,8 +24,15 @@ if mouse_check_button_pressed(mb_left)
 		}
 		else
 		{
-			obj_jogador.falando = false
-			instance_destroy()
+			if instance_exists(obj_jogador)
+			{
+				obj_jogador.falando = false
+				instance_destroy()
+			}
+			if !instance_exists(obj_jogador)
+			{
+				instance_destroy()
+			}
 		}
 	}
 }
