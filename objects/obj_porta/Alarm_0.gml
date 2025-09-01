@@ -1,0 +1,1 @@
+room_goto(prox_room)

@@ -35,10 +35,7 @@ function all_textos(){
 		break
 		
 		case "cartas":
-		ds_grid_add_text("* ( A strange light fills the room. )",spr_placeholdernpc,1,"Narrador")
-		ds_grid_add_text("* ( Twilight is shining through the barrier. )",spr_placeholdernpc,1,"Narrador")
-		ds_grid_add_text("* ( It seems your journey is finally over. )",spr_placeholdernpc,1,"Narrador")
-		ds_grid_add_text("* ( You're filled with DETERMINATION. )",spr_placeholdernpc,1,"Narrador")
+		ds_grid_add_text("Umas carta aqui sla",spr_placeholdernpc,1,"Narrador")
 		break
 		
 	

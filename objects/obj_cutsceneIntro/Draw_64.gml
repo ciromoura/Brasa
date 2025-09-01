@@ -7,3 +7,9 @@ if alpha <= 0.2
 	draw_set_color(-1)
 	draw_set_alpha(1)
 }
+
+if cutscene_end = true
+{
+	draw_set_color(-1)
+	draw_set_alpha(1)
+}

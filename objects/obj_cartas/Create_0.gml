@@ -1,1 +1,2 @@
 nome = "cartas"
+isnarrador = true

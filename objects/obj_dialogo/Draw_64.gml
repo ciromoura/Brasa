@@ -12,7 +12,7 @@ if init == true
 
 
 	draw_set_font(fnt_dialogo)
-	if texto_grid[# Infos.Lado,pagina] == 0
+	if texto_grid[# Infos.Lado,pagina] == 0 and obj_npc.isnarrador = false
 	{
 		var _stgw = string_width(texto_grid[# Infos.Nome,pagina])
 		draw_rectangle_color(_xx+95,_yy-55,_xx +95 + _stgw + 30,_yy,c_white,c_white,c_white,c_white,false)
@@ -30,8 +30,7 @@ if init == true
 		draw_text_ext(_xx +200,_yy +32, _texto,40,_guix - 300)
 	}
 	
-	
-	else
+	if texto_grid[# Infos.Lado,pagina] == 1 and obj_npc.isnarrador = false
 	{
 		var _stgw = string_width(texto_grid[# Infos.Nome,pagina])
 		draw_rectangle_color(_guix-95,_yy-55,_guix - 95 - _stgw - 30,_yy,c_white,c_white,c_white,c_white,false)

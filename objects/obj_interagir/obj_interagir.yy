@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_interacao",
-  "eventList":[],
+  "%Name":"obj_interagir",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_interacao",
+  "name":"obj_interagir",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -27,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_interacao",
-    "path":"sprites/spr_interacao/spr_interacao.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
