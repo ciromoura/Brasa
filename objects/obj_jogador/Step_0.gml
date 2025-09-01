@@ -132,7 +132,7 @@ if walldireita or wallesquerda{
 
 
 
-//Aqui cria o objeto do dialogo caso o jogador interaja
+//Aqui cria o objeto do dialogo caso o jogador interaja:
 if distance_to_object(obj_npc) < rangeint and keyboard_check_pressed(ord("E")) and falando == false
 {
 	var _npc = instance_nearest(x,y,obj_npc)
