@@ -3,36 +3,38 @@ function all_textos(){
 	{
 		case "npc1":
 		ds_grid_add_text("Já estava na hora de voltar, Raimundo. Ninguém demora tanto assim para fazer qualquer coisa que seja.",spr_placeholdernpc,1,"Seringueiro")
-		ds_grid_add_text("Sossega, rapaz. Eu tô aqui a mais tempo que você. Sei o tempo que leva pra fazer cada coisa.",spr_jogadorParado,0,"Jogador")
+		ds_grid_add_text("Sossega, rapaz. Eu tô aqui a mais tempo que você. Sei o tempo que leva pra fazer cada coisa.",spr_jogadorParado,0,"Raimundo")
 		ds_grid_add_text("...",spr_placeholdernpc,1,"Seringueiro")
 		break
 		
 		case "npc2":
 		ds_grid_add_text("Estamos sem ferramentas. A chuva da noite passada levou tudo porque algum lesado deixou elas jogadas por aí.",spr_placeholdernpc,1,"Seringueiro")
 		ds_grid_add_text("Acho que o patrão quer falar alguma coisa com você.",spr_placeholdernpc,1,"Seringueiro")
-		ds_grid_add_text("Oxe, e por que comigo?",spr_jogadorParado,0,"Jogador")
+		ds_grid_add_text("Oxe, e por que comigo?",spr_jogadorParado,0,"Raimundo")
 		ds_grid_add_text("E quem sabe?",spr_placeholdernpc,1,"Seringueiro")
 		break
 		
 		case "patrao":
 		ds_grid_add_text("Bom ver você, Raimundão. Todo mundo tá precisando das ferramentas do armazém. Como você já é mais vivido, preciso que você vá lá.",spr_placeholdernpc,1,"Patrão")
-		ds_grid_add_text(".....",spr_jogadorParado,0,"Jogador")
+		ds_grid_add_text(".....",spr_jogadorParado,0,"Raimundo")
 		ds_grid_add_text("Vai que eu mando um trabalhador desse e ele dá fim nas coisas por lá, né? Hahaha. Pegue, tá aqui a chave.",spr_placeholdernpc,1,"Patrão")
-		ds_grid_add_text("É, haha... Diabo.",spr_jogadorParado,0,"Jogador")
+		ds_grid_add_text("É, haha... Diabo.",spr_jogadorParado,0,"Raimundo")
 		break
 		
 		case "npc4":
 		ds_grid_add_text("O armazém fica subindo esse caminho aí. Mas só entra lá com a chave, o seringalista não dá a qualquer um não.",spr_placeholdernpc,1,"Seringueiro")
-		ds_grid_add_text("Que grande honra ser uma pessoa de confiança, então.",spr_jogadorParado,0,"Jogador")
+		ds_grid_add_text("Que grande honra ser uma pessoa de confiança, então.",spr_jogadorParado,0,"Raimundo")
 		ds_grid_add_text("Ser de confiança? Com aquele cara lá? Prefiro fazer amizade com onça do que com dono de seringal.",spr_placeholdernpc,1,"Seringueiro")
 		break
 		
 		case "narradorIntro":
-		ds_grid_add_text("* ( A strange light fills the room. )",spr_placeholdernpc,1,"Narrador")
-		ds_grid_add_text("* ( Twilight is shining through the barrier. )",spr_placeholdernpc,1,"Narrador")
-		ds_grid_add_text("* ( It seems your journey is finally over. )",spr_placeholdernpc,1,"Narrador")
-		ds_grid_add_text("* ( You're filled with DETERMINATION. )",spr_placeholdernpc,1,"Narrador")
+		ds_grid_add_text("Acre. 1939.\nO território amazônico foi pintado com seringais, espaços de produção de borracha.",spr_placeholdernpc,1,"Narrador")
+		ds_grid_add_text("O governo recrutava homens de todo o país para trabalhar nos seringais, a exportação da borracha não podia parar.",spr_placeholdernpc,1,"Narrador")
+		ds_grid_add_text("Longe de suas terras e famílias, enfrentavam a floresta, a solidão e as promessas de uma vida melhor.\nEntre eles, há um homem marcado pelo tempo e pelo trabalho árduo.",spr_placeholdernpc,1,"Narrador")
+		ds_grid_add_text("'...sinto saudades de todos. Da minha terra, do meu lugar, da minha mulher. As coisas irão melhorar'...",spr_jogadorParado,1,"???")
+		ds_grid_add_text("'Assinado, Raimundo.'",spr_jogadorParado,1,"Raimundo")
 		break
+
 		
 		case "cartas":
 		ds_grid_add_text("Umas carta aqui sla",spr_placeholdernpc,1,"Narrador")

@@ -8,7 +8,8 @@ if init == false
 //pula a pagina caso o texto ja tiver sido totalmente imprimido
 //imprime todo o texto de uma vez caso nao esteja totalmente imprimido
 
-if mouse_check_button_pressed(mb_left)
+keybinds = scr_getBinds()
+if keyboard_check_pressed(keybinds.jump)
 {
 	if caractere < string_length(texto_grid[# Infos.Texto, pagina])
 	{

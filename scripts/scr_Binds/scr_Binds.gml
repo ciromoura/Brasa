@@ -15,7 +15,7 @@ function scr_getBinds(){
 
 function scr_setBinds(keybinds){
     if (!file_exists("Game options/keybinds.json")){
-        var arquivoControles = file_text_open_write(path);
+        var arquivoControles = file_text_open_write("Game options/keybinds.json");
         file_text_write_string(arquivoControles, json_stringify(keybinds));
         file_text_close(arquivoControles);
     }

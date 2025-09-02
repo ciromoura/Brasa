@@ -1,4 +1,4 @@
-if distance_to_object(obj_jogador) <= obj_jogador.rangeint and keyboard_check_pressed(ord("E"))
+if distance_to_object(obj_jogador) <= obj_jogador.rangeint and keyboard_check_pressed(keybinds.interact)
 {
 	global.xNext = xTeleport
 	global.yNext = yTeleport

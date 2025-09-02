@@ -1,0 +1,1 @@
+keybinds = scr_getBinds()

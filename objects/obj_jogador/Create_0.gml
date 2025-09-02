@@ -20,6 +20,5 @@ falando = false
 keybinds = scr_getBinds()
 
 instance_create_depth(x,y,depth,obj_camera)
-instance_create_depth(x,y,depth,obj_controladorDoJogo)
 
 depth = -99
