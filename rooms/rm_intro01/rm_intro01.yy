@@ -15,6 +15,7 @@
     {"name":"inst_19CDF07B","path":"rooms/rm_intro01/rm_intro01.yy",},
     {"name":"inst_3F800907","path":"rooms/rm_intro01/rm_intro01.yy",},
     {"name":"inst_4C888814","path":"rooms/rm_intro01/rm_intro01.yy",},
+    {"name":"inst_6B7BD612","path":"rooms/rm_intro01/rm_intro01.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -31,6 +32,11 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":10.000001,"x":2048.0,"y":1440.0,},
         {"$GMRInstance":"v2","%Name":"inst_3F800907","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3F800907","objectId":{"name":"obj_npc2","path":"objects/obj_npc2/obj_npc2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":1696.0,},
         {"$GMRInstance":"v2","%Name":"inst_4C888814","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4C888814","objectId":{"name":"obj_patrao","path":"objects/obj_patrao/obj_patrao.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":322.0,"y":976.0,},
+        {"$GMRInstance":"v2","%Name":"inst_6B7BD612","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6B7BD612","objectId":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},"propertyId":{"name":"prox_room","path":"objects/obj_porta/obj_porta.yy",},"resource":{"name":"rm_armazem","path":"rooms/rm_armazem/rm_armazem.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_armazem",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},"propertyId":{"name":"xTeleport","path":"objects/obj_porta/obj_porta.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"170",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},"propertyId":{"name":"yTeleport","path":"objects/obj_porta/obj_porta.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"480",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":1696.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets2","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_1FBADF6D","animationSpeed":1.0,"colour":4287401100,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_1FBADF6D","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":6.5,"scaleY":3.0,"spriteId":{"name":"spr_placeholder","path":"sprites/spr_placeholder/spr_placeholder.yy",},"x":608.0,"y":448.0,},
