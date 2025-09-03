@@ -30,7 +30,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"prox_room","filters":[],"listItems":[],"multiselect":false,"name":"prox_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_intro01","path":"rooms/rm_intro01/rm_intro01.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_intro01","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"prox_room","filters":[],"listItems":[],"multiselect":false,"name":"prox_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_armazem","path":"rooms/rm_armazem/rm_armazem.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_armazem","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"xTeleport","filters":[],"listItems":[],"multiselect":false,"name":"xTeleport","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"yTeleport","filters":[],"listItems":[],"multiselect":false,"name":"yTeleport","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":0,},
   ],

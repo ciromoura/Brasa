@@ -2,7 +2,7 @@ if distance_to_object(obj_jogador) <= obj_jogador.rangeint and keyboard_check_pr
 	// Basciamente, Aqui vai verificar se ele tem a chave do armazém
 	for (var i = 0; i < array_length(global.itens); i++){
 		// Aqui é quando tiver a chave, acontecer essa ação aí
-		if (global.itens[i] = "chaveArmazem"){
+		if (global.itens[0] = "chaveArmazem"){
 			global.xNext = xTeleport
 			global.yNext = yTeleport
 			fadeIn()
@@ -11,7 +11,10 @@ if distance_to_object(obj_jogador) <= obj_jogador.rangeint and keyboard_check_pr
 			}
 		}
 		else{
-			show_message("Galego ou caio bota uma mensagem que precisa da chave")	
+			instance_create_layer(x,y,"Instances",obj_porta1)
+			var _npc = instance_nearest(x,y,obj_npc)
+			var _dialogo = instance_create_layer(x,y,"Instances",obj_dialogo)
+			_dialogo.npc_nome = _npc.nome
 		}
 	}
 

@@ -29,6 +29,7 @@
     {"name":"obj_npc4","order":3,"path":"objects/obj_npc4/obj_npc4.yy",},
     {"name":"obj_patrao","order":2,"path":"objects/obj_patrao/obj_patrao.yy",},
     {"name":"obj_porta","order":6,"path":"objects/obj_porta/obj_porta.yy",},
+    {"name":"obj_porta1","order":7,"path":"objects/obj_porta1/obj_porta1.yy",},
     {"name":"obj_portal","order":3,"path":"objects/obj_portal/obj_portal.yy",},
     {"name":"rm_armazem","order":5,"path":"rooms/rm_armazem/rm_armazem.yy",},
     {"name":"rm_intro01","order":1,"path":"rooms/rm_intro01/rm_intro01.yy",},

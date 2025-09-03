@@ -40,6 +40,10 @@ function all_textos(){
 		ds_grid_add_text("Umas carta aqui sla",spr_placeholdernpc,1,"Narrador")
 		break
 		
+		case "porta1":
+		ds_grid_add_text("É necessário ter a chave do armazém para entrar.",spr_placeholdernpc,1,"Narrador")
+		break
+		
 	
 	}
 }

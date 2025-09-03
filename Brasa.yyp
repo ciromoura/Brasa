@@ -52,6 +52,7 @@
     {"id":{"name":"obj_passBy","path":"objects/obj_passBy/obj_passBy.yy",},},
     {"id":{"name":"obj_patrao","path":"objects/obj_patrao/obj_patrao.yy",},},
     {"id":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},},
+    {"id":{"name":"obj_porta1","path":"objects/obj_porta1/obj_porta1.yy",},},
     {"id":{"name":"obj_portal","path":"objects/obj_portal/obj_portal.yy",},},
     {"id":{"name":"obj_smoke","path":"objects/obj_smoke/obj_smoke.yy",},},
     {"id":{"name":"rm_armazem","path":"rooms/rm_armazem/rm_armazem.yy",},},

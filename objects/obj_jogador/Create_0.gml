@@ -4,7 +4,7 @@
 
 global.maxSpeed = 10
 global.currentSpeed = 0
-global.itens = ["chaveArmazem", "item2", "item3"]
+global.itens = ["", "", ""]
 
 alturaMaxPulo = -16
 gravidade = 0.6
