@@ -64,6 +64,7 @@
     {"id":{"name":"scr_alltextos","path":"scripts/scr_alltextos/scr_alltextos.yy",},},
     {"id":{"name":"scr_Binds","path":"scripts/scr_Binds/scr_Binds.yy",},},
     {"id":{"name":"scr_Fade","path":"scripts/scr_Fade/scr_Fade.yy",},},
+    {"id":{"name":"scr_Itens","path":"scripts/scr_Itens/scr_Itens.yy",},},
     {"id":{"name":"scr_Particulas","path":"scripts/scr_Particulas/scr_Particulas.yy",},},
     {"id":{"name":"spr_carta","path":"sprites/spr_carta/spr_carta.yy",},},
     {"id":{"name":"spr_interacao","path":"sprites/spr_interacao/spr_interacao.yy",},},
