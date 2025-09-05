@@ -2,7 +2,7 @@ if distance_to_object(obj_jogador) <= obj_jogador.rangeint and keyboard_check_pr
 	// Basciamente, Aqui vai verificar se ele tem a chave do armazém
 	for (var i = 0; i < array_length(global.itens); i++){
 		// Aqui é quando tiver a chave, acontecer essa ação aí
-		if (global.itens[0] = "chaveArmazem"){
+		if (global.itens[i] = "chaveArmazem"){
 			global.xNext = xTeleport
 			global.yNext = yTeleport
 			fadeIn()
