@@ -29,11 +29,20 @@ function all_textos(){
 		break
 		
 		case "narradorIntro":
-		ds_grid_add_text("Acre. 1939.\nO território amazônico foi pintado com seringais, espaços de produção de borracha.",spr_placeholdernpc,1,"Narrador")
-		ds_grid_add_text("O governo recrutava homens de todo o país para trabalhar nos seringais, a exportação da borracha não podia parar.",spr_placeholdernpc,1,"Narrador")
-		ds_grid_add_text("Longe de suas terras e famílias, enfrentavam a floresta, a solidão e as promessas de uma vida melhor.\nEntre eles, há um homem marcado pelo tempo e pelo trabalho árduo.",spr_placeholdernpc,1,"Narrador")
-		ds_grid_add_text("'...sinto saudades de todos. Da minha terra, do meu lugar, da minha mulher. As coisas irão melhorar'...",spr_jogadorParado,1,"???")
-		ds_grid_add_text("'Assinado, Raimundo.'",spr_jogadorParado,1,"Raimundo")
+		ds_grid_add_text("Seringal São Bernardo, margem do rio Acre: junho de 1899. \nEscrevo sob um céu de chumbo, com o cheiro de borracha queimada entranhado nas mãos. Hoje vi coisa que não contaria, se não fosse o medo de esquecer quem ainda sou.",spr_placeholdernpc,1,"Narrador")
+		ds_grid_add_text("O seringal está inquieto. Firmino, o capataz, anda com os olhos arregalados e o revólver à mostra. Fala em 'gente de fora' avançando pelo rio, em soldados de uniforme azul-turquesa fincando bandeiras em barrancos que eram nossos.",spr_placeholdernpc,1,"Narrador")
+		ds_grid_add_text("nossos.",spr_placeholdernpc,1,"Narrador")
+		ds_grid_add_text("Patrão Mané reúne os homens no barracão: 'Quem defender o talhadão ganha redução na dívida!'. Mas ninguém acredita. A dívida é como o igarapé sem fundo — quanto mais você tira água, mais lama sobe.",spr_placeholdernpc,1,"Narrador")
+		ds_grid_add_text("Foi numa tarde de chuva miúda que Cabo Estiliano apareceu.",spr_jogadorParado,1,"???")
+		ds_grid_add_text("Encontrei ele encolhido debaixo de um pau-d’arco, a farda boliviana rasgada e ensopada de sangue, não de ferimento, mas do látex que escorria das seringueiras.",spr_jogadorParado,1,"???")
+		ds_grid_add_text("Tinha os olhos amendoados dos Andes e falava um português cortado, como facão em cipó duro:",spr_jogadorParado,1,"???")
+		ds_grid_add_text("— Sou apenas um camponês... Arrancaram-me de Potosí para morrer nesse inferno verde.",spr_jogadorParado,1,"Raimundo")
+		ds_grid_add_text("Esconde-o na palhoça. Enquanto defumava as bolas de borracha, ele sussurrou histórias que fizeram o fogo tremer:",spr_jogadorParado,1,"???")
+		ds_grid_add_text("— Seu governo comprou generais bolivianos com libras inglesas... Mas Plácido de Castro (um gaúcho que eles temem!) está ajuntando seringueiros armados de facão e espingarda velha.",spr_jogadorParado,1,"???")
+		ds_grid_add_text("A guerra vem aí, cunhado. E o Acre não será de ninguém — será cemitério.",spr_jogadorParado,1,"???")
+		ds_grid_add_text("Patrão Mané desconfia. Ontem revirou as colocações com dois jagunços.",spr_jogadorParado,1,"???")
+		ds_grid_add_text("Estiliano ficou imóvel como um tronco caído, escondido no forno de defumação desativado.",spr_jogadorParado,1,"???")
+		ds_grid_add_text("Senti o cheiro do medo — azedo, como tucumã podre.",spr_jogadorParado,1,"???")
 		break
 
 		
