@@ -47,7 +47,8 @@ function all_textos(){
 
 		
 		case "cartas":
-		ds_grid_add_text("Umas carta aqui sla",spr_placeholdernpc,1,"Narrador")
+		ds_grid_add_text("Sente-se um impulso incontrolável, quase como uma ordem do seu subconsciente, para abrir essa caixa. O momento é como um baque surdo no seu crânio. Tudo o que você escuta quando você lê as cartas nunca enviadas para sua família é o sangue escorrendo pela suas veias. Ele mentiu para você.",spr_placeholdernpc,1,"Narrador")
+		ds_grid_add_text("...?",spr_jogadorParado,0,"Raimundo")
 		break
 		
 		case "porta1":
