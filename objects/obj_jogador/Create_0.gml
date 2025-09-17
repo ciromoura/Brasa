@@ -16,6 +16,8 @@ jumpSpeedMod = 1
 wallsliding = false
 rangeint = 100
 falando = false
+jumps = 1
+
 
 
 keybinds = scr_getBinds()

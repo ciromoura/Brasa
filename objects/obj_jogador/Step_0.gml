@@ -27,9 +27,15 @@ if !global.pause{
 
 #region Pulo, gravidade e colisão vertical (clique para abrir)
 // Pulo =================================================================================
-if keyboard_check_pressed(keybinds.jump) and coyoteTime > 0{
+if keyboard_check_pressed(keybinds.jump) and coyoteTime > 0 and jumps!=0{
 	jumpSpeed = alturaMaxPulo
     coyoteTime = 0
+	
+}
+
+if keyboard_check_pressed(keybinds.jump) and jumps!=0{
+	jumpSpeed = alturaMaxPulo
+	jumps --
 }
 
 if place_meeting(x, y+1, obj_colisor){
@@ -37,6 +43,10 @@ if place_meeting(x, y+1, obj_colisor){
 } else{
     jumpSpeed += gravidade
 	coyoteTime--
+}
+if place_meeting(x, y+1, obj_colisor)
+{
+	jumps = 1
 }
 
 if keyboard_check_released(keybinds.jump) and jumpSpeed < 0{
