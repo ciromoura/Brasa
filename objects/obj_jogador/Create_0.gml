@@ -5,6 +5,8 @@
 global.maxSpeed = 10
 global.currentSpeed = 0
 global.itens = ["", "", ""]
+global.currentEnergy = 100
+global.maxEnergy = 100
 
 alturaMaxPulo = -16
 gravidade = 0.6
