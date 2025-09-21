@@ -1,0 +1,2 @@
+nome = "narradorCartas"
+isnarrador = true

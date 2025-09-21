@@ -34,6 +34,30 @@ if keyboard_check_pressed(keybinds.jump)
 			{
 				instance_destroy()
 			}
+			
+			if npc_nome = "cartas"
+			{
+				obj_cartas.interagiu = true
+			}
+			
+			if npc_nome = "narradorCartas"
+			{
+				global.pause = false
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 		}
 	}
 }

@@ -19,8 +19,8 @@ function all_textos(){
 		ds_grid_add_text(".....",spr_jogadorParado,0,"Raimundo")
 		ds_grid_add_text("Vai que eu mando um trabalhador desse e ele dá fim nas coisas por lá, né? Hahaha. Pegue, tá aqui a chave.",spr_placeholdernpc,1,"Patrão")
 		ds_grid_add_text("É, haha... Diabo.",spr_jogadorParado,0,"Raimundo")
-		ds_grid_add_text("Raimundo pegou a chave do armazém.",spr_placeholder,1,"Narrador")
 		obj_patrao.interagiu = true
+		ds_grid_add_text("Raimundo pegou a chave do armazém.",spr_placeholder,1,"Narrador")
 		break
 		
 		case "npc4":
@@ -48,8 +48,13 @@ function all_textos(){
 
 		
 		case "cartas":
-		ds_grid_add_text("Sente-se um impulso incontrolável, quase como uma ordem do seu subconsciente, para abrir essa caixa. O momento é como um baque surdo no seu crânio. Tudo o que você escuta quando você lê as cartas nunca enviadas para sua família é o sangue escorrendo pela suas veias. Ele mentiu para você.",spr_placeholdernpc,1,"Narrador")
+		ds_grid_add_text("Sente-se um impulso incontrolável, quase como uma ordem do seu subconsciente, para abrir essa caixa. O momento é como um baque surdo no seu crânio.",spr_placeholdernpc,1,"Narrador")
+		ds_grid_add_text("Tudo o que você escuta quando você lê as cartas nunca enviadas para sua família é o sangue escorrendo pela suas veias. Ele mentiu para você.",spr_placeholdernpc,1,"Narrador")
 		ds_grid_add_text("...?",spr_jogadorParado,0,"Raimundo")
+		break
+		
+		case "narradorCartas":
+		ds_grid_add_text("Senti o cheiro de shape.",spr_jogadorParado,1,"???")
 		break
 		
 		case "porta1":

@@ -10,6 +10,8 @@
     {"name":"inst_9C080B1","path":"rooms/rm_armazem/rm_armazem.yy",},
     {"name":"inst_299B32A8","path":"rooms/rm_armazem/rm_armazem.yy",},
     {"name":"inst_3195AFB1","path":"rooms/rm_armazem/rm_armazem.yy",},
+    {"name":"inst_3BDB35AA","path":"rooms/rm_armazem/rm_armazem.yy",},
+    {"name":"inst_1533A91A","path":"rooms/rm_armazem/rm_armazem.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -20,6 +22,8 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.75,"scaleY":2.0,"x":672.0,"y":480.0,},
         {"$GMRInstance":"v2","%Name":"inst_299B32A8","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_299B32A8","objectId":{"name":"obj_colisor","path":"objects/obj_colisor/obj_colisor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.421875,"scaleY":12.0,"x":1320.5,"y":384.0,},
         {"$GMRInstance":"v2","%Name":"inst_3195AFB1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3195AFB1","objectId":{"name":"obj_colisor","path":"objects/obj_colisor/obj_colisor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.421875,"scaleY":12.0,"x":45.5,"y":384.0,},
+        {"$GMRInstance":"v2","%Name":"inst_3BDB35AA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3BDB35AA","objectId":{"name":"obj_cartas","path":"objects/obj_cartas/obj_cartas.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":544.0,},
+        {"$GMRInstance":"v2","%Name":"inst_1533A91A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1533A91A","objectId":{"name":"obj_cutsceneCartas","path":"objects/obj_cutsceneCartas/obj_cutsceneCartas.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":544.0,},
       ],"layers":[],"name":"Instances","properties":[
         {"name":"g_GradientColour1","type":1,"value":"#82000000",},
         {"name":"g_GradientColour2","type":1,"value":"#7A000000",},
