@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_placeholderPorta",
-    "path":"sprites/spr_placeholderPorta/spr_placeholderPorta.yy",
+    "name":"spr_placeholdernpc",
+    "path":"sprites/spr_placeholdernpc/spr_placeholdernpc.yy",
   },
   "spriteMaskId":null,
   "visible":true,

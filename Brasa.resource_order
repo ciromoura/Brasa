@@ -45,7 +45,6 @@
     {"name":"spr_jumpAnim","order":1,"path":"sprites/spr_jumpAnim/spr_jumpAnim.yy",},
     {"name":"spr_placeholder","order":4,"path":"sprites/spr_placeholder/spr_placeholder.yy",},
     {"name":"spr_placeholdernpc","order":2,"path":"sprites/spr_placeholdernpc/spr_placeholdernpc.yy",},
-    {"name":"spr_placeholderPorta","order":1,"path":"sprites/spr_placeholderPorta/spr_placeholderPorta.yy",},
     {"name":"spr_wallJumpEffect","order":2,"path":"sprites/spr_wallJumpEffect/spr_wallJumpEffect.yy",},
   ],
 }

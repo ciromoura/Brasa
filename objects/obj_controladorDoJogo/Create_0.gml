@@ -23,3 +23,9 @@ scr_setBinds(keybinds)
 // Outras variáveis de controle global ============================================================================
 
 global.pause = true
+global.shadercor = make_color_rgb(59, 212, 67)
+
+
+if (!layer_exists("layer_effect")) {
+    effect_layer = layer_create(-1000, "layer_effect"); 
+}
