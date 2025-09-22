@@ -8,8 +8,8 @@
   "name":"obj_cartas",
   "overriddenProperties":[],
   "parent":{
-    "name":"Npcs",
-    "path":"folders/Objetos/Npcs.yy",
+    "name":"NPC",
+    "path":"folders/Objetos/NPC.yy",
   },
   "parentObjectId":{
     "name":"obj_npc",

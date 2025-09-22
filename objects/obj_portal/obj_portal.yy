@@ -9,8 +9,8 @@
   "name":"obj_portal",
   "overriddenProperties":[],
   "parent":{
-    "name":"Controle",
-    "path":"folders/Objetos/Controle.yy",
+    "name":"Mapa",
+    "path":"folders/Objetos/Mapa.yy",
   },
   "parentObjectId":null,
   "persistent":false,

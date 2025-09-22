@@ -9,8 +9,8 @@
   "name":"obj_porta",
   "overriddenProperties":[],
   "parent":{
-    "name":"Controle",
-    "path":"folders/Objetos/Controle.yy",
+    "name":"Mapa",
+    "path":"folders/Objetos/Mapa.yy",
   },
   "parentObjectId":{
     "name":"obj_interagir",
@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_placeholdernpc",
-    "path":"sprites/spr_placeholdernpc/spr_placeholdernpc.yy",
+    "name":"spr_placeholder",
+    "path":"sprites/spr_placeholder/spr_placeholder.yy",
   },
   "spriteMaskId":null,
   "visible":true,

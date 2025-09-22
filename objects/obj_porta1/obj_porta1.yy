@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_npc","path":"objects/obj_npc/obj_npc.yy",},"propertyId":{"name":"nome","path":"objects/obj_npc/obj_npc.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"porta1\"",},
   ],
   "parent":{
-    "name":"Npcs",
-    "path":"folders/Objetos/Npcs.yy",
+    "name":"NPC",
+    "path":"folders/Objetos/NPC.yy",
   },
   "parentObjectId":{
     "name":"obj_npc",

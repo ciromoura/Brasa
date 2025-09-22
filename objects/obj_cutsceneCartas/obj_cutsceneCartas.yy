@@ -9,8 +9,8 @@
   "name":"obj_cutsceneCartas",
   "overriddenProperties":[],
   "parent":{
-    "name":"Controle",
-    "path":"folders/Objetos/Controle.yy",
+    "name":"Cutscene",
+    "path":"folders/Objetos/Cutscene.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_carta",
-    "path":"sprites/spr_carta/spr_carta.yy",
+    "name":"spr_placeholder",
+    "path":"sprites/spr_placeholder/spr_placeholder.yy",
   },
   "spriteMaskId":null,
   "visible":true,

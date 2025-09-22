@@ -10,8 +10,8 @@
   "name":"obj_cutsceneInicial",
   "overriddenProperties":[],
   "parent":{
-    "name":"Controle",
-    "path":"folders/Objetos/Controle.yy",
+    "name":"Cutscene",
+    "path":"folders/Objetos/Cutscene.yy",
   },
   "parentObjectId":{
     "name":"obj_colisor",
