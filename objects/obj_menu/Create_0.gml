@@ -6,7 +6,7 @@ opcao1 =
     
     funcao : function()
     {
-		instance_create_layer(0,0,"Instances",obj_transicao)
+		room_goto(rm_introducao)
 		
     },
 }
@@ -33,7 +33,7 @@ opcao3 =
 
 opcao4 =
 {
-    texto : "Opções",
+    texto : "Options",
     
     funcao : function()
     {
