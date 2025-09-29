@@ -48,6 +48,7 @@
     {"id":{"name":"obj_interagir","path":"objects/obj_interagir/obj_interagir.yy",},},
     {"id":{"name":"obj_jogador","path":"objects/obj_jogador/obj_jogador.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
+    {"id":{"name":"obj_menupause","path":"objects/obj_menupause/obj_menupause.yy",},},
     {"id":{"name":"obj_narradorCartas","path":"objects/obj_narradorCartas/obj_narradorCartas.yy",},},
     {"id":{"name":"obj_narradorIntro","path":"objects/obj_narradorIntro/obj_narradorIntro.yy",},},
     {"id":{"name":"obj_npc","path":"objects/obj_npc/obj_npc.yy",},},

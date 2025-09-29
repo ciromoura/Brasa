@@ -26,6 +26,7 @@
     {"name":"obj_interagir","order":4,"path":"objects/obj_interagir/obj_interagir.yy",},
     {"name":"obj_jogador","order":2,"path":"objects/obj_jogador/obj_jogador.yy",},
     {"name":"obj_menu","order":5,"path":"objects/obj_menu/obj_menu.yy",},
+    {"name":"obj_menupause","order":6,"path":"objects/obj_menupause/obj_menupause.yy",},
     {"name":"obj_narradorCartas","order":8,"path":"objects/obj_narradorCartas/obj_narradorCartas.yy",},
     {"name":"obj_narradorIntro","order":5,"path":"objects/obj_narradorIntro/obj_narradorIntro.yy",},
     {"name":"obj_npc","order":4,"path":"objects/obj_npc/obj_npc.yy",},

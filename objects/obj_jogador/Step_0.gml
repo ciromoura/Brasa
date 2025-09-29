@@ -151,5 +151,12 @@ if distance_to_object(obj_npc) < rangeint and keyboard_check_pressed(ord("E")) a
 	falando = true
 	
 }
+
+if keyboard_check_pressed(vk_escape)
+{
+	instance_create_depth(x,y,-99,obj_menupause)
+	global.pause = true
+}
+
 #endregion
 
