@@ -15,7 +15,6 @@ if global.pausemenu{
 
         draw_set_color(_cor)
         draw_set_font(fnt_menu)
-        draw_set_halign(fa_center)
 
         draw_text(gui_w/2, gui_h/2 + _altura * i, menu[i].texto)
     }
