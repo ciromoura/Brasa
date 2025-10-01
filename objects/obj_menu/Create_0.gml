@@ -2,7 +2,7 @@
 #region
 opcao1 =
 {
-    texto : "Jogar",
+    texto : "Novo jogo",
     
     funcao : function()
     {
@@ -13,6 +13,27 @@ opcao1 =
 
 opcao2 =
 {
+    texto : "Carregar",
+    
+    funcao : function()
+    {
+        show_message("Perai não aprendi a fazer isso ainda")    
+    },
+}
+
+opcao3 =
+{
+    texto : "Opções",
+    
+    funcao : function()
+    {
+		
+		room_goto(rm_opcoes)
+    },
+}
+
+opcao4 =
+{
     texto : "Sair",
     
     funcao : function()
@@ -21,26 +42,6 @@ opcao2 =
     },
 }
 
-opcao3 =
-{
-    texto : "Carregar",
-    
-    funcao : function()
-    {
-        show_message("Carregar o jogo")    
-    },
-}
-
-opcao4 =
-{
-    texto : "Options",
-    
-    funcao : function()
-    {
-		
-		room_goto(rm_opcoes)
-    },
-}
 #endregion
 
 menu = [opcao1, opcao2, opcao3, opcao4]

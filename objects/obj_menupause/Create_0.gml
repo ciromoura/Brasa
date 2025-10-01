@@ -4,7 +4,7 @@ global.pausemenu = false
 #region
 opcao1 =
 {
-    texto : "Voltar",
+    texto : "Retomar",
     
     funcao : function()
     {
@@ -14,7 +14,7 @@ opcao1 =
 
 opcao2 =
 {
-    texto : "Menu Principal",
+    texto : "Sair ao menu",
     
     funcao : function()
     {
@@ -25,7 +25,7 @@ opcao2 =
 
 opcao3 =
 {
-    texto : "Options",
+    texto : "Opções",
     
     funcao : function()
     {
@@ -35,7 +35,7 @@ opcao3 =
 
 opcao4 =
 {
-    texto : "Sair",
+    texto : "Fechar jogo",
     
     funcao : function()
     {
