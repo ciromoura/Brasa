@@ -12,8 +12,8 @@
     {"name":"Sons","order":5,"path":"folders/Sons.yy",},
     {"name":"Sprites","order":6,"path":"folders/Sprites.yy",},
     {"name":"Efeitos","order":2,"path":"folders/Sprites/Efeitos.yy",},
-    {"name":"Menu","order":13,"path":"folders/Sprites/Menu.yy",},
     {"name":"Jogador","order":11,"path":"folders/Sprites/Jogador.yy",},
+    {"name":"Menu","order":13,"path":"folders/Sprites/Menu.yy",},
     {"name":"NPCs","order":10,"path":"folders/Sprites/NPCs.yy",},
   ],
   "ResourceOrderSettings":[
