@@ -1,6 +1,6 @@
 if global.pausemenu{
 	// Aqui vemos quase as mesmas características do menu normal, com diferença que não estamos mudando a room
-    var _altura = string_height("I") + 10
+    var _altura = string_height("I")
 
     draw_sprite(spr_pauseMenu,0,0,0)
 
@@ -8,24 +8,24 @@ if global.pausemenu{
         var _cor = c_white;
         if i = atual{
 			_cor = c_grey
-			var _size = 1.2
+			var _size = 0.8
 		}
 		else{
-			var _size = 1
+			var _size = 0.6
 		}
 
         draw_set_color(_cor)
         draw_set_font(fnt_menu)
-        draw_text_transformed(700, 430 + _altura * i, menu[i].texto, _size, _size, 0)
+        draw_text_transformed(720, 450 + _altura * i, menu[i].texto, _size, _size, 0)
     }
 	if (array_length(global.itens) > 0) {
     for (var i = 0; i < array_length(global.itens); i++) {
         var _cor = c_white;
-        var _size = 1;
+        var _size = 0.8;
 
         draw_set_color(_cor);
         draw_set_font(fnt_menu);
-        draw_text_transformed(250, 250 + _altura * i, global.itens[i], _size, _size, 0);
+        draw_text_transformed(220, 150 + _altura * i, $"- {global.itens[i]}", _size, _size, 0);
     }
 }
 

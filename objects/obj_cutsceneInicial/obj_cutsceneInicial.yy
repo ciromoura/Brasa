@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_placeholder",
-    "path":"sprites/spr_placeholder/spr_placeholder.yy",
+    "name":"spr_canoa",
+    "path":"sprites/spr_canoa/spr_canoa.yy",
   },
   "spriteMaskId":null,
   "visible":true,

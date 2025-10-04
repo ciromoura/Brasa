@@ -8,3 +8,5 @@ else{
 		unpause = true
 	}
 }
+
+depth = obj_jogador.depth -1

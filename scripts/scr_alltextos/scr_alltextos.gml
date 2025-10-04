@@ -20,7 +20,7 @@ function all_textos(){
 		ds_grid_add_text("Vai que eu mando um trabalhador desse e ele dá fim nas coisas por lá, né? Hahaha. Pegue, tá aqui a chave.",spr_placeholdernpc,1,"Patrão")
 		ds_grid_add_text("É, haha... Diabo.",spr_jogadorParado,0,"Raimundo")
 		obj_patrao.interagiu = true
-		ds_grid_add_text("Raimundo pegou a chave do armazém.",spr_placeholder,1,"Narrador")
+		ds_grid_add_text("Raimundo pegou a chave do armazém.",spr_placeholdernpc,1,"Narrador")
 		break
 		
 		case "npc4":
@@ -30,6 +30,8 @@ function all_textos(){
 		break
 		
 		case "narradorIntro":
+		ds_grid_add_text("Floresta amazônica. 1899.\nOs seringais trabalham a todo vapor com a necessidade de mais e mais exportação de borracha, produzida através das árvores de latex.",spr_placeholdernpc,1,"Narrador")
+		ds_grid_add_text("Dentre os trabalhadores machucados pela exploração, desnutrição e dívidas, Raimundo escreve cartas para sua família do nordeste:S",spr_placeholdernpc,1,"Narrador")
 		ds_grid_add_text("Seringal São Bernardo, margem do rio Acre: junho de 1899. \nEscrevo sob um céu de chumbo, com o cheiro de borracha queimada entranhado nas mãos. Hoje vi coisa que não contaria, se não fosse o medo de esquecer quem ainda sou.",spr_placeholdernpc,1,"Narrador")
 		ds_grid_add_text("O seringal está inquieto. Firmino, o capataz, anda com os olhos arregalados e o revólver à mostra. Fala em 'gente de fora' avançando pelo rio, em soldados de uniforme azul-turquesa fincando bandeiras em barrancos que eram nossos.",spr_placeholdernpc,1,"Narrador")
 		ds_grid_add_text("nossos.",spr_placeholdernpc,1,"Narrador")
@@ -54,7 +56,10 @@ function all_textos(){
 		break
 		
 		case "narradorCartas":
-		ds_grid_add_text("Senti o cheiro de shape.",spr_jogadorParado,1,"???")
+		ds_grid_add_text("São as cartas que você enviou a sua família.",spr_jogadorParado,1,"???")
+		ds_grid_add_text("Ou melhor, deveria ter enviado. Patrão Mané provavelmente nunca sequer tocou nelas.",spr_jogadorParado,1,"???")
+		ds_grid_add_text("Está claro agora. Viver nesse local, nesse trabalho, nessas condições... É impossível. Não há muito o que se fazer para melhorar as condições por aqui.",spr_jogadorParado,1,"???")
+		ds_grid_add_text("Se não tem como melhorar, a única alternativa é fugir.",spr_jogadorParado,1,"???")
 		break
 		
 		case "porta1":
