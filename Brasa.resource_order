@@ -20,6 +20,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"fnt_menu","order":1,"path":"fonts/fnt_menu/fnt_menu.yy",},
+    {"name":"obj_agua","order":3,"path":"objects/obj_agua/obj_agua.yy",},
     {"name":"obj_camera","order":1,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_cartas","order":6,"path":"objects/obj_cartas/obj_cartas.yy",},
     {"name":"obj_controladorDoJogo","order":1,"path":"objects/obj_controladorDoJogo/obj_controladorDoJogo.yy",},
