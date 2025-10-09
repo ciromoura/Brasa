@@ -35,7 +35,10 @@ if keyboard_check_pressed(keybinds.jump) and coyoteTime > 0 and jumps!=0{
 
 if keyboard_check_pressed(keybinds.jump) and jumps!=0{
 	jumpSpeed = alturaMaxPulo
-	jumps --
+	if !place_meeting(x + sign(jumpSpeed), y, obj_colisor) or !place_meeting(x - sign(jumpSpeed), y, obj_colisor)
+	{
+		jumps --
+	}
 }
 
 if place_meeting(x, y+1, obj_colisor){
@@ -47,6 +50,16 @@ if place_meeting(x, y+1, obj_colisor){
 if place_meeting(x, y+1, obj_colisor)
 {
 	jumps = 1
+}
+
+if place_meeting(x + sign(jumpSpeed), y, obj_colisor)
+{
+	jumps = 2
+}
+
+if place_meeting(x - sign(jumpSpeed), y, obj_colisor)
+{
+	jumps = 2
 }
 
 if keyboard_check_released(keybinds.jump) and jumpSpeed < 0{
