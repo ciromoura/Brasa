@@ -2,10 +2,10 @@
 var prev_atual = atual
 
 // Subir ou descer
-if (keyboard_check_pressed(vk_down)){
+if keyboard_check_pressed(vk_down){
 	atual += 1
 }
-if (keyboard_check_pressed(vk_up)){
+if keyboard_check_pressed(vk_up){
 	atual -= 1
 }
 
@@ -18,7 +18,7 @@ if atual != prev_atual{
 }
 
 // Confirmar a opção atual
-if (keyboard_check_pressed(ord("Z"))) {
+if keyboard_check_pressed(ord("Z")) {
     if (array_length(menu) > 0 && atual >= 0 && atual < array_length(menu)) {
         menu[atual].funcao()
     }
