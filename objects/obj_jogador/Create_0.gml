@@ -24,6 +24,7 @@ jumps = 1
 
 
 
+
 keybinds = scr_getBinds()
 
 instance_create_depth(x,y,depth,obj_camera)

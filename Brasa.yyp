@@ -82,6 +82,7 @@
     {"id":{"name":"scr_Itens","path":"scripts/scr_Itens/scr_Itens.yy",},},
     {"id":{"name":"scr_Particulas","path":"scripts/scr_Particulas/scr_Particulas.yy",},},
     {"id":{"name":"snd_botao","path":"sounds/snd_botao/snd_botao.yy",},},
+    {"id":{"name":"snd_grama","path":"sounds/snd_grama/snd_grama.yy",},},
     {"id":{"name":"spr_arvore","path":"sprites/spr_arvore/spr_arvore.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_canoa","path":"sprites/spr_canoa/spr_canoa.yy",},},
