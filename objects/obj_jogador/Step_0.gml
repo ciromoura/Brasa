@@ -2,6 +2,7 @@
 // Movimentação básica =================================================================================
 if !falando{
 inputX = keyboard_check(keybinds.right) - keyboard_check(keybinds.left)
+
 if inputX != 0{
 	image_xscale = inputX
 	global.currentSpeed = lerp(global.currentSpeed,global.maxSpeed,0.8)

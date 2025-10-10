@@ -2,9 +2,11 @@
 
 if (keyboard_check_pressed(vk_down)){
     atual++
+	audio_play_sound(snd_botao, 1000, 0)
 }
 if (keyboard_check_pressed(vk_up)){
     atual--
+	audio_play_sound(snd_botao, 1000, 0)
 }
 
 if (keyboard_check_pressed(ord("Z"))){

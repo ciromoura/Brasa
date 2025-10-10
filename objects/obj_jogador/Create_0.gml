@@ -9,6 +9,7 @@ global.currentEnergy = 100
 global.maxEnergy = 100
 global.noite = 0
 
+
 alturaMaxPulo = -16
 gravidade = 0.6
 coyoteTime = 0
