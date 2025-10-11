@@ -5,8 +5,16 @@ inputX = keyboard_check(keybinds.right) - keyboard_check(keybinds.left)
 
 if inputX != 0{
 	image_xscale = inputX
-	global.currentSpeed = lerp(global.currentSpeed,global.maxSpeed,0.8)
-	var moveSpeed = inputX * global.currentSpeed
+	var _running = keyboard_check(vk_shift)
+	if _running and global.currentEnergy > run{
+		global.maxSpeed = 14
+		global.currentEnergy -= run
+	}
+	else{
+		global.maxSpeed = 10
+	}
+		global.currentSpeed = lerp(global.currentSpeed,global.maxSpeed,0.8)
+		var moveSpeed = inputX * global.currentSpeed
 } else{
 	global.currentSpeed = lerp(global.currentSpeed,0,0.2)
 	moveSpeed = global.currentSpeed * image_xscale
@@ -173,6 +181,12 @@ if keyboard_check_pressed(vk_escape)
 	global.pause = true
 }
 
+// Energia
+if global.currentEnergy < 0{
+	global.currentEnergy = 0
+}
 
 #endregion
+
+show_debug_message(global.currentEnergy)
 
