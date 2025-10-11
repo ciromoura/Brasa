@@ -21,7 +21,7 @@ wallsliding = false
 rangeint = 100
 falando = false
 jumps = 1
-run = 0.5
+run = 0.05
 
 
 
