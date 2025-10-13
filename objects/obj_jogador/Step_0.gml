@@ -6,11 +6,11 @@ inputX = keyboard_check(keybinds.right) - keyboard_check(keybinds.left)
 if inputX != 0{
 	image_xscale = inputX
 	var _running = keyboard_check(vk_shift)
-	if _running and global.currentEnergy > run{
+	if _running and global.currentEnergy > run and !place_meeting(x,y,obj_agua){
 		global.maxSpeed = 14
 		global.currentEnergy -= run
 	}
-	else{
+	if !_running and !place_meeting(x,y,obj_agua){
 		global.maxSpeed = 10
 	}
 		global.currentSpeed = lerp(global.currentSpeed,global.maxSpeed,0.8)
