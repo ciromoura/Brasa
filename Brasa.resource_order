@@ -43,6 +43,8 @@
     {"name":"rm_01","order":7,"path":"rooms/rm_01/rm_01.yy",},
     {"name":"rm_02","order":8,"path":"rooms/rm_02/rm_02.yy",},
     {"name":"rm_03","order":9,"path":"rooms/rm_03/rm_03.yy",},
+    {"name":"rm_04","order":10,"path":"rooms/rm_04/rm_04.yy",},
+    {"name":"rm_05","order":11,"path":"rooms/rm_05/rm_05.yy",},
     {"name":"rm_armazem","order":5,"path":"rooms/rm_armazem/rm_armazem.yy",},
     {"name":"rm_intro01","order":1,"path":"rooms/rm_intro01/rm_intro01.yy",},
     {"name":"rm_intro02","order":2,"path":"rooms/rm_intro02/rm_intro02.yy",},
