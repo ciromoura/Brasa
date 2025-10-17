@@ -1,0 +1,1 @@
+global.contador = 0
