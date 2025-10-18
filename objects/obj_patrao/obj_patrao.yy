@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_placeholdernpc",
-    "path":"sprites/spr_placeholdernpc/spr_placeholdernpc.yy",
+    "name":"spr_patraoMane",
+    "path":"sprites/spr_patraoMane/spr_patraoMane.yy",
   },
   "spriteMaskId":null,
   "visible":true,
