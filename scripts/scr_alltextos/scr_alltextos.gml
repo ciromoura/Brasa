@@ -15,12 +15,12 @@ function all_textos(){
 		break
 		
 		case "patrao":
-		ds_grid_add_text("Bom ver você, Raimundão. Todo mundo tá precisando das ferramentas do armazém. Como você já é mais vivido, preciso que você vá lá.",spr_placeholdernpc,1,"Patrão")
+		ds_grid_add_text("Bom ver você, Raimundão. Todo mundo tá precisando das ferramentas do armazém. Como você já é mais vivido, preciso que você vá lá.",spr_patraoMane,1,"Patrão Mané")
 		ds_grid_add_text(".....",spr_jogadorParado,0,"Raimundo")
-		ds_grid_add_text("Vai que eu mando um trabalhador desse e ele dá fim nas coisas por lá, né? Hahaha. Pegue, tá aqui a chave.",spr_placeholdernpc,1,"Patrão")
+		ds_grid_add_text("Vai que eu mando um trabalhador desse e ele dá fim nas coisas por lá, né? Hahaha. Pegue, tá aqui a chave.",spr_patraoMane,1,"Patrão Mané")
 		ds_grid_add_text("É, haha... Diabo.",spr_jogadorParado,0,"Raimundo")
 		obj_patrao.interagiu = true
-		ds_grid_add_text("Raimundo pegou a chave do armazém.",spr_placeholdernpc,1,"Narrador")
+		ds_grid_add_text("Raimundo pegou a chave do armazém.",spr_particulaGrama,1,"Narrador")
 		break
 		
 		case "npc4":
