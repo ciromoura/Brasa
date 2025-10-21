@@ -41,6 +41,7 @@
     {"name":"obj_porta1","order":7,"path":"objects/obj_porta1/obj_porta1.yy",},
     {"name":"obj_portal","order":2,"path":"objects/obj_portal/obj_portal.yy",},
     {"name":"obj_tempo","order":7,"path":"objects/obj_tempo/obj_tempo.yy",},
+    {"name":"obj_trepadeira","order":4,"path":"objects/obj_trepadeira/obj_trepadeira.yy",},
     {"name":"rm_01","order":13,"path":"rooms/rm_01/rm_01.yy",},
     {"name":"rm_02","order":8,"path":"rooms/rm_02/rm_02.yy",},
     {"name":"rm_03","order":9,"path":"rooms/rm_03/rm_03.yy",},

@@ -158,6 +158,50 @@ if walldireita or wallesquerda{
 
 #endregion
 
+#region Trepadeira
+if place_meeting(x,y,obj_trepadeira)
+{
+	seatrepou = true
+}
+if !place_meeting(x,y,obj_trepadeira)
+{
+	seatrepou = false
+}
+if seatrepou = true
+{
+	jumpSpeed = 0
+	gravidade = 0
+	if keyboard_check(vk_up) and !place_meeting(x,y-5,obj_colisor)
+	{
+		y-= 5
+	}
+	if keyboard_check(vk_down) and !place_meeting(x,y+5,obj_colisor)
+	{
+		y+= 5
+	}
+	if keyboard_check(vk_right) and !place_meeting(x+5,y,obj_colisor)
+	{
+		x-= 5
+	}
+	if keyboard_check(vk_left) and !place_meeting(x-5,y,obj_colisor)
+	{
+		x+= 5
+	}
+}
+else
+{
+	gravidade = 0.6
+}
+
+
+
+
+
+
+
+
+
+#endregion
 #region Interação
 //Aqui está sendo criado o sprite da interaçao caso o jogador esteja perto
 //e destruido caso interaja ou esteja longe

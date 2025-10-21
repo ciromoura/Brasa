@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_placeholder2",
-    "path":"sprites/spr_placeholder2/spr_placeholder2.yy",
+    "name":"spr_placeholder",
+    "path":"sprites/spr_placeholder/spr_placeholder.yy",
   },
   "spriteMaskId":null,
   "visible":true,

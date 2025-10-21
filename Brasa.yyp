@@ -66,6 +66,7 @@
     {"id":{"name":"obj_portal","path":"objects/obj_portal/obj_portal.yy",},},
     {"id":{"name":"obj_smoke","path":"objects/obj_smoke/obj_smoke.yy",},},
     {"id":{"name":"obj_tempo","path":"objects/obj_tempo/obj_tempo.yy",},},
+    {"id":{"name":"obj_trepadeira","path":"objects/obj_trepadeira/obj_trepadeira.yy",},},
     {"id":{"name":"rm_01","path":"rooms/rm_01/rm_01.yy",},},
     {"id":{"name":"rm_02","path":"rooms/rm_02/rm_02.yy",},},
     {"id":{"name":"rm_03","path":"rooms/rm_03/rm_03.yy",},},
