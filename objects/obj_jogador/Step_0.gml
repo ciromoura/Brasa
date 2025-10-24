@@ -151,10 +151,10 @@ if walldireita or wallesquerda{
 //WallJump
 if walldireita or wallesquerda{
 	if keyboard_check_pressed(keybinds.jump){
+		global.currentEnergy -= walljump
 		instance_create_depth((x+(sprite_width/2))*image_xscale,y-sprite_height/3,depth-9999,obj_smoke,{isParticle: false, sprite_index: spr_wallJumpEffect})
 		jumpSpeed = alturaMaxPulo
 	    global.currentSpeed -= 25
-		global.currentSpeed -= walljump
 	}
 }
 
