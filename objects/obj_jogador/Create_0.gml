@@ -21,8 +21,13 @@ wallsliding = false
 rangeint = 100
 falando = false
 jumps = 1
-run = 0.05
 seatrepou = false
+
+// Valores de gasto de energia:
+run = 0.09
+walljump = 5
+wallslide = 0.05
+
 
 
 

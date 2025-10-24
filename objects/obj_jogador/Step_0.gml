@@ -138,6 +138,7 @@ if walldireita or wallesquerda{
 				repeat(3){
 					scr_criarParticula(posicaoparticula,y-sprite_height/3,depth+1,spr_particulaGrama,random_range(180,90),2,0.06) // Criação da partícula
 					scr_criarParticula(posicaoparticula,(y-sprite_height/3)+200,depth+1,spr_particulaGrama,random_range(180,90),2,0.06) // Criação da partícula
+					global.currentEnergy -= wallslide
 				}
 			}
 			particleTimer = 3
@@ -153,6 +154,7 @@ if walldireita or wallesquerda{
 		instance_create_depth((x+(sprite_width/2))*image_xscale,y-sprite_height/3,depth-9999,obj_smoke,{isParticle: false, sprite_index: spr_wallJumpEffect})
 		jumpSpeed = alturaMaxPulo
 	    global.currentSpeed -= 25
+		global.currentSpeed -= walljump
 	}
 }
 
@@ -192,11 +194,6 @@ else
 {
 	gravidade = 0.6
 }
-
-
-
-
-
 
 
 
