@@ -60,6 +60,8 @@ function all_textos(){
 		ds_grid_add_text("Ou melhor, deveria ter enviado. Patrão Mané provavelmente nunca sequer tocou nelas.",spr_jogadorParado,1,"???")
 		ds_grid_add_text("Está claro agora. Viver nesse local, nesse trabalho, nessas condições... É impossível. Não há muito o que se fazer para melhorar as condições por aqui.",spr_jogadorParado,1,"???")
 		ds_grid_add_text("Se não tem como melhorar, a única alternativa é fugir.",spr_jogadorParado,1,"???")
+		ds_grid_add_text("Tudo o que você sente é a vontade de seguir seu caminho para descobrir as mil perguntas sem respostas depois desse armazém.",spr_placeholdernpc,1,"???")
+		global.passar = true
 		break
 		
 		case "porta1":

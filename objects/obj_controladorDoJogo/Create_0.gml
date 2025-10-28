@@ -3,6 +3,7 @@
 // no jogo final, mas será útil pra testes aqui
 
 global.debugMode = true
+global.passar = false
 
 // Definição de controles ===================================================================================
 // Array de teclas que são armazenadas em variáveis que por sua vez são armazenadas em uma struct. Pode ser alterado 
