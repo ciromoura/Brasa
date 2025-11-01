@@ -231,3 +231,15 @@ if global.currentEnergy < 0{
 
 show_debug_message(global.currentEnergy)
 
+if room = rm_intro03 and place_meeting(x-50,y,obj_portal) and !noInventario("Cartas")
+{
+	inst_36C1BA6E.x = 9999
+	inst_36C1BA6E.y = 9999
+}
+if room = rm_intro03 and noInventario("Cartas")
+{
+	inst_36C1BA6E.x = 2880
+	inst_36C1BA6E.y = 1600
+}
+	
+

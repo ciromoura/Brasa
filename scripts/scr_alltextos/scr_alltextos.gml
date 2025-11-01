@@ -53,6 +53,10 @@ function all_textos(){
 		ds_grid_add_text("Sente-se um impulso incontrolável, quase como uma ordem do seu subconsciente, para abrir essa caixa. O momento é como um baque surdo no seu crânio.",spr_placeholdernpc,1,"Narrador")
 		ds_grid_add_text("Tudo o que você escuta quando você lê as cartas nunca enviadas para sua família é o sangue escorrendo pela suas veias. Ele mentiu para você.",spr_placeholdernpc,1,"Narrador")
 		ds_grid_add_text("...?",spr_jogadorParado,0,"Raimundo")
+		if !noInventario("Cartas")
+		{
+		array_insert(global.itens,1,"Cartas")
+		}
 		break
 		
 		case "narradorCartas":
@@ -68,6 +72,7 @@ function all_textos(){
 		ds_grid_add_text("É necessário ter a chave do armazém para entrar.",spr_placeholdernpc,1,"Narrador")
 		break
 		
+	
 	
 	}
 }
