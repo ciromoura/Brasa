@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.56,
+  "duration":0.44802722,
   "name":"snd_grama",
   "parent":{
     "name":"Sons",

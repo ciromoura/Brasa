@@ -1,8 +1,8 @@
 alpha_transicao = lerp(alpha_transicao,alpha_lerp,0.05)
 
 // Fazer a câmera seguir o jogador
-x = lerp(x,obj_jogador.x,0.5)
-y = lerp(y,obj_jogador.y,0.5)
+x = lerp(x,obj_jogador.x,0.1)
+y = lerp(y,obj_jogador.y,0.1)
 
 camera_set_view_target(view_camera[0],global.cameraTarget)
 camera_set_view_pos(view_camera[0],x,y)

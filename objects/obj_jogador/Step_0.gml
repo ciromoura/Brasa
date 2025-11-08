@@ -106,11 +106,13 @@ if jumpSpeed > 30{
 }
 #region Efeitos visuais (clique para abrir)
 // Partículas ===================================================================================
+
+
 particleTimer--
 if particleTimer <= 0{
 	if jumpSpeed = 0 and inputX != 0{
 		repeat(3){
-			scr_criarParticula(x-(inputX*-20),(y+sprite_height/2)+10,depth+1,spr_particulaGrama,random_range(180,90)*inputX,2*inputX,0.06)
+			scr_criarParticula(x-(inputX*-20),(y+sprite_height/2),depth+1,spr_particulaGrama,random_range(180,90)*inputX,2*inputX,0.06)
 		}
 	}
 	particleTimer = 0.5
