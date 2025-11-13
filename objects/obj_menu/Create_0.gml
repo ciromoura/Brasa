@@ -45,4 +45,10 @@ opcao4 =
 #endregion
 
 menu = [opcao1, opcao2, opcao3, opcao4]
+
 atual = 0
+
+prev_atual = -1
+scale = 1
+
+
