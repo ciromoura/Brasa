@@ -72,6 +72,16 @@ function all_textos(){
 		ds_grid_add_text("É necessário ter a chave do armazém para entrar.",spr_placeholdernpc,1,"Narrador")
 		break
 		
+		case "npcfacao":
+		ds_grid_add_text("Pegue aqui um facao",spr_placeholdernpc,1,"???")
+		ds_grid_add_text("Raimundo obteve um facão.",spr_particulaGrama,1,"Narrador")
+		if !noInventario("Facão")
+		{
+		array_insert(global.itens,2,"Facão")
+		obj_npcfacao.interagiu = true
+		}
+		break
+		
 	
 	
 	}

@@ -6,11 +6,11 @@ inputX = keyboard_check(keybinds.right) - keyboard_check(keybinds.left)
 if inputX != 0{
 	image_xscale = inputX
 	var _running = keyboard_check(vk_shift)
-	if _running and global.currentEnergy > run and !place_meeting(x,y,obj_agua){
+	if _running and global.currentEnergy > run and !place_meeting(x,y,obj_agua) and !place_meeting(x,y,obj_mato){
 		global.maxSpeed = 14
 		global.currentEnergy -= run
 	}
-	if !_running and !place_meeting(x,y,obj_agua){
+	if !_running and !place_meeting(x,y,obj_agua) and !place_meeting(x,y,obj_mato){
 		global.maxSpeed = 10
 	}
 		global.currentSpeed = lerp(global.currentSpeed,global.maxSpeed,0.8)
@@ -195,6 +195,14 @@ if seatrepou = true
 else
 {
 	gravidade = 0.6
+}
+
+if noInventario("Facão")
+{
+	if place_meeting(x,y,obj_mato) and mouse_check_button_pressed(mb_left)
+	{
+		instance_destroy(instance_nearest(x,y,obj_mato))
+	}
 }
 
 
