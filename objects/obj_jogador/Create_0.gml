@@ -23,11 +23,13 @@ falando = false
 jumps = 1
 seatrepou = false
 
-// Valores de gasto de energia:
+// Valores de gasto ou ganho de energia/ vida:
 run = 0.09
 walljump = 5
 wallslide = 0.05
 
+ganhoenergia = 0.01
+ganhovida = 0.02
 
 
 

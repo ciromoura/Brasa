@@ -96,6 +96,7 @@
     {"id":{"name":"snd_grama","path":"sounds/snd_grama/snd_grama.yy",},},
     {"id":{"name":"spr_arvore","path":"sprites/spr_arvore/spr_arvore.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
+    {"id":{"name":"spr_background1","path":"sprites/spr_background1/spr_background1.yy",},},
     {"id":{"name":"spr_canoa","path":"sprites/spr_canoa/spr_canoa.yy",},},
     {"id":{"name":"spr_casa","path":"sprites/spr_casa/spr_casa.yy",},},
     {"id":{"name":"spr_interacao","path":"sprites/spr_interacao/spr_interacao.yy",},},
