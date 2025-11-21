@@ -28,7 +28,7 @@ run = 0.09
 walljump = 5
 wallslide = 0.05
 
-ganhoenergia = 0.01
+ganhoenergia = 0.08
 ganhovida = 0.02
 
 

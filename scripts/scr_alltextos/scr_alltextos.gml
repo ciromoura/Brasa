@@ -80,6 +80,15 @@ function all_textos(){
 		array_insert(global.itens,2,"Facão")
 		obj_npcfacao.interagiu = true
 		}
+		
+		case "npcpocao":
+		ds_grid_add_text("Pegue aqui uma poção",spr_placeholdernpc,1,"???")
+		ds_grid_add_text("Raimundo obteve uma poção.",spr_particulaGrama,1,"Narrador")
+		ds_grid_add_text("Aperte F para utilizar a poção.",spr_particulaGrama,1,"Narrador")
+		if !noInventario("Poção")
+		{
+		array_insert(global.itens,3,"Poção")
+		}
 		break
 		
 	

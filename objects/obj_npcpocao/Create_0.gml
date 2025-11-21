@@ -1,0 +1,2 @@
+nome = "npcpocao"
+isnarrador = true

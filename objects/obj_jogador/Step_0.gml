@@ -255,3 +255,13 @@ if room = rm_intro03 and noInventario("Cartas")
 if global.currentEnergy < 100{
 	global.currentEnergy += ganhoenergia
 }
+
+#region Poção Indígena
+if noInventario("Poção") and keyboard_check(ord("F")){
+	ganhoenergia = 0.12
+	
+	run = 0.04
+	walljump = 4
+	wallslide = 0.02
+	array_delete(global.itens, 3, 1)
+}

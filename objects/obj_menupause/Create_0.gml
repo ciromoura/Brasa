@@ -1,6 +1,7 @@
 global.pausemenu = false
 
 #region
+
 opcao1 = {
 	texto : "Retomar",
 	funcao : function() {
