@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"Brasa",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -29,12 +29,16 @@
     {"$GMFolder":"","%Name":"Objetos","folderPath":"folders/Sprites/Objetos.yy","name":"Objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Personagens","folderPath":"folders/Sprites/Personagens.yy","name":"Personagens","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences":[],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.gm_filter_colourise-1.0.0","name":"io.gamemaker.gm_filter_colourise-1.0.0","path":"io.gamemaker.gm_filter_colourise-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_gradient-1.0.0","name":"io.gamemaker.gm_filter_gradient-1.0.0","path":"io.gamemaker.gm_filter_gradient-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_underwater-1.0.0","name":"io.gamemaker.gm_filter_underwater-1.0.0","path":"io.gamemaker.gm_filter_underwater-1.0.0.yyp",},
+  ],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"Brasa",
   "resources":[
@@ -100,7 +104,6 @@
     {"id":{"name":"snd_grama","path":"sounds/snd_grama/snd_grama.yy",},},
     {"id":{"name":"spr_arvore","path":"sprites/spr_arvore/spr_arvore.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
-    {"id":{"name":"spr_background1","path":"sprites/spr_background1/spr_background1.yy",},},
     {"id":{"name":"spr_canoa","path":"sprites/spr_canoa/spr_canoa.yy",},},
     {"id":{"name":"spr_casa","path":"sprites/spr_casa/spr_casa.yy",},},
     {"id":{"name":"spr_coin","path":"sprites/spr_coin/spr_coin.yy",},},

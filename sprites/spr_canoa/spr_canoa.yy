@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_canoa",
   "bboxMode":2,
   "bbox_bottom":117,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1ad4450b-1564-45cc-a437-82046952a0fc","name":"1ad4450b-1564-45cc-a437-82046952a0fc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"06da86cc-d2fe-406f-85a9-faece157be95","name":"06da86cc-d2fe-406f-85a9-faece157be95","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":120,
+  "height":100,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"384c04ba-3617-490d-9e5c-83a468158452","blendMode":0,"displayName":"default","isLocked":false,"name":"384c04ba-3617-490d-9e5c-83a468158452","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"7ec39480-7f7f-47f5-b585-452c3c754751","blendMode":0,"displayName":"default","isLocked":false,"name":"7ec39480-7f7f-47f5-b585-452c3c754751","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_canoa",
   "nineSlice":null,
@@ -71,14 +71,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1ad4450b-1564-45cc-a437-82046952a0fc","path":"sprites/spr_canoa/spr_canoa.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1f454bfb-46af-41c0-8d34-2020936c5c13","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"06da86cc-d2fe-406f-85a9-faece157be95","path":"sprites/spr_canoa/spr_canoa.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0ca59303-73c1-483a-bb98-d71b21933f90","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":210,
-    "yorigin":60,
+    "xorigin":160,
+    "yorigin":50,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -88,5 +88,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":420,
+  "width":321,
 }

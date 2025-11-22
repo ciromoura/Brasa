@@ -30,8 +30,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"nome","filters":[],"listItems":[],"multiselect":false,"name":"nome","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"npc1\"","varType":2,},
-    {"$GMObjectProperty":"v1","%Name":"isnarrador","filters":[],"listItems":[],"multiselect":false,"name":"isnarrador","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"nome","filters":[],"listItems":[],"multiselect":false,"name":"nome","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"npc1\"","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"isnarrador","filters":[],"listItems":[],"multiselect":false,"name":"isnarrador","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

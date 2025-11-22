@@ -1,10 +1,10 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_jogadorParado",
   "bboxMode":2,
   "bbox_bottom":243,
-  "bbox_left":10,
-  "bbox_right":92,
+  "bbox_left":43,
+  "bbox_right":125,
   "bbox_top":10,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b1c1b286-558d-413f-8f7d-f0155b9a79c0","name":"b1c1b286-558d-413f-8f7d-f0155b9a79c0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1ff3948e-c296-466f-b8c3-c5c05f14a42f","name":"1ff3948e-c296-466f-b8c3-c5c05f14a42f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":250,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"cd86b1c3-e09e-4fbc-9958-93e24ab2829e","blendMode":0,"displayName":"default","isLocked":false,"name":"cd86b1c3-e09e-4fbc-9958-93e24ab2829e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"00f50891-b585-45b5-bdeb-85e49555af55","blendMode":0,"displayName":"default","isLocked":false,"name":"00f50891-b585-45b5-bdeb-85e49555af55","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_jogadorParado",
   "nineSlice":null,
@@ -71,13 +71,13 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b1c1b286-558d-413f-8f7d-f0155b9a79c0","path":"sprites/spr_jogadorParado/spr_jogadorParado.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9e424d18-9b53-4bab-b9cd-86054e8c080e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1ff3948e-c296-466f-b8c3-c5c05f14a42f","path":"sprites/spr_jogadorParado/spr_jogadorParado.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"40b98157-ab57-4417-88db-203ecde82607","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":48,
+    "xorigin":83,
     "yorigin":125,
   },
   "swatchColours":null,
@@ -88,5 +88,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":96,
+  "width":167,
 }
