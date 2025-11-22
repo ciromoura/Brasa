@@ -91,6 +91,16 @@ function all_textos(){
 		}
 		break
 		
+		case "npcmoeda":
+		ds_grid_add_text("Pegue aqui a Bolsa do patrão.",spr_placeholdernpc,1,"???")
+		ds_grid_add_text("Raimundo obteve a Bolsa do patrão.",spr_particulaGrama,1,"Narrador")
+		if !noInventario("Bolsa do patrão")
+		{
+		obj_coin.bolsadopatrao = true
+		array_insert(global.itens,3,"Bolsa do patrão")
+		}
+		break
+		
 	
 	
 	}

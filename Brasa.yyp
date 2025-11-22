@@ -62,6 +62,7 @@
     {"id":{"name":"obj_npc2","path":"objects/obj_npc2/obj_npc2.yy",},},
     {"id":{"name":"obj_npc4","path":"objects/obj_npc4/obj_npc4.yy",},},
     {"id":{"name":"obj_npcfacao","path":"objects/obj_npcfacao/obj_npcfacao.yy",},},
+    {"id":{"name":"obj_npcmoeda","path":"objects/obj_npcmoeda/obj_npcmoeda.yy",},},
     {"id":{"name":"obj_npcpocao","path":"objects/obj_npcpocao/obj_npcpocao.yy",},},
     {"id":{"name":"obj_passBy","path":"objects/obj_passBy/obj_passBy.yy",},},
     {"id":{"name":"obj_patrao","path":"objects/obj_patrao/obj_patrao.yy",},},

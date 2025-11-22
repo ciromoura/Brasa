@@ -1,2 +1,2 @@
 nome = "npcpocao"
-isnarrador = true
+interagiu = false

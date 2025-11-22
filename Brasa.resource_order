@@ -39,6 +39,7 @@
     {"name":"obj_npc2","order":1,"path":"objects/obj_npc2/obj_npc2.yy",},
     {"name":"obj_npc4","order":3,"path":"objects/obj_npc4/obj_npc4.yy",},
     {"name":"obj_npcfacao","order":9,"path":"objects/obj_npcfacao/obj_npcfacao.yy",},
+    {"name":"obj_npcmoeda","order":11,"path":"objects/obj_npcmoeda/obj_npcmoeda.yy",},
     {"name":"obj_npcpocao","order":10,"path":"objects/obj_npcpocao/obj_npcpocao.yy",},
     {"name":"obj_patrao","order":2,"path":"objects/obj_patrao/obj_patrao.yy",},
     {"name":"obj_pickup","order":14,"path":"objects/obj_pickup/obj_pickup.yy",},

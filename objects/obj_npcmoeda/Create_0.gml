@@ -1,0 +1,2 @@
+nome = "npcmoeda"
+isnarrador = true
