@@ -1,2 +1,2 @@
 nome = "npcmoeda"
-isnarrador = true
+isnarrador = false

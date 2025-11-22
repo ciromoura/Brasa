@@ -77,9 +77,9 @@ function all_textos(){
 		ds_grid_add_text("Raimundo obteve um facão.",spr_particulaGrama,1,"Narrador")
 		if !noInventario("Facão")
 		{
-		array_insert(global.itens,2,"Facão")
-		obj_npcfacao.interagiu = true
+		array_insert(global.itens,1,"Facão")
 		}
+		break
 		
 		case "npcpocao":
 		ds_grid_add_text("Pegue aqui uma poção",spr_placeholdernpc,1,"???")
@@ -87,7 +87,7 @@ function all_textos(){
 		ds_grid_add_text("Aperte F para utilizar a poção.",spr_particulaGrama,1,"Narrador")
 		if !noInventario("Poção")
 		{
-		array_insert(global.itens,3,"Poção")
+		array_insert(global.itens,2,"Poção")
 		}
 		break
 		
