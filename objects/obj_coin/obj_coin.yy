@@ -9,8 +9,8 @@
   "name":"obj_coin",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Mapa",
+    "path":"folders/Objetos/Mapa.yy",
   },
   "parentObjectId":{
     "name":"obj_pickup",

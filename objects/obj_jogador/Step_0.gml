@@ -39,7 +39,7 @@ if !global.pause{
 if keyboard_check_pressed(keybinds.jump) and coyoteTime > 0 and jumps!=0{
 	jumpSpeed = alturaMaxPulo
     coyoteTime = 0
-	
+	audio_play_sound(snd_pulo,0,0,,,random_range(0.9,1.2))
 }
 
 if keyboard_check_pressed(keybinds.jump) and jumps!=0{

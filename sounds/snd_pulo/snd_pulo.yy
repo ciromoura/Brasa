@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_grama",
+  "%Name":"snd_pulo",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.44535148,
+  "duration":1.1520182,
   "exportDir":"",
-  "name":"snd_grama",
+  "name":"snd_pulo",
   "parent":{
     "name":"Sons",
     "path":"folders/Sons.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_grama.ogg",
+  "soundFile":"snd_pulo.mp3",
   "volume":1.0,
 }
