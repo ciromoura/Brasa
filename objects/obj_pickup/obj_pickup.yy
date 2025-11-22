@@ -8,8 +8,8 @@
   "name":"obj_pickup",
   "overriddenProperties":[],
   "parent":{
-    "name":"Coletáveis",
-    "path":"folders/Objetos/Coletáveis.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

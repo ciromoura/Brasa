@@ -29,10 +29,7 @@
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":0,"effectEnabled":true,"effectType":"_filter_colourise","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[
-        {"name":"g_Intensity","type":0,"value":"1",},
-        {"name":"g_TintCol","type":1,"value":"#FF65FF77",},
-      ],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":35,"SerialiseWidth":107,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":0,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":35,"SerialiseWidth":107,"TileCompressedData":[
           -887,-2147483648,1,1,-29,2,1,3,-15,-2147483648,1,1,-29,2,-31,-2147483648,1,5,-29,6,1,7,-15,-2147483648,
           1,5,-29,6,-31,-2147483648,1,5,-29,6,1,7,-15,-2147483648,1,5,-29,6,-12,-2147483648,1,1,-8,2,1,3,-9,-2147483648,
           1,9,-29,10,1,11,-15,-2147483648,1,9,-29,10,-12,-2147483648,1,5,-8,6,1,7,-97,-2147483648,1,5,-8,6,1,7,

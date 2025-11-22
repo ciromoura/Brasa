@@ -199,7 +199,7 @@ else
 
 if noInventario("Facão")
 {
-	if place_meeting(x,y,obj_mato) and mouse_check_button_pressed(mb_left)
+	if place_meeting(x,y,obj_mato)
 	{
 		instance_destroy(instance_nearest(x,y,obj_mato))
 	}
@@ -258,7 +258,7 @@ if global.currentEnergy < 100{
 
 #region Poção Indígena
 if noInventario("Poção") and keyboard_check(ord("F")){
-	ganhoenergia = 0.12
+	ganhoenergia = 0.1
 	
 	run = 0.04
 	walljump = 4
