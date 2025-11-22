@@ -5,6 +5,12 @@ if place_meeting(x,y,obj_jogador)
 	obj_jogador.alturaMaxPulo = -10
 	global.maxSpeed = -9999999
 	obj_jogador.jumpSpeed = obj_jogador.jumpSpeed*0.9
+	if keyboard_check(vk_right){
+		obj_jogador.x = obj_jogador.x - 3
+	}
+	if keyboard_check(vk_left){
+		obj_jogador.x = obj_jogador.x + 3
+	}
 	
 }
 

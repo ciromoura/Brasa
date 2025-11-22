@@ -1,0 +1,1 @@
+depth = obj_jogador.depth - 1
