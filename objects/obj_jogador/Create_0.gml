@@ -32,6 +32,7 @@ candash = true
 run = 0.09
 walljump = 5
 wallslide = 0.05
+dash = 5
 
 ganhoenergia = 0.03
 ganhovida = 0.02

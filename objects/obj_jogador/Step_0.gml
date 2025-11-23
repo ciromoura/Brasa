@@ -10,7 +10,12 @@ if inputX != 0{
 		global.maxSpeed = 14
 		global.currentEnergy -= run
 	}
-	if !_running and !place_meeting(x,y,obj_agua) and !place_meeting(x,y,obj_mato){
+	
+	if !_running and !place_meeting(x,y,obj_agua) and !place_meeting(x,y,obj_mato) and noInventario("Botas reforçadas"){
+		global.maxSpeed = 12
+	}
+	
+	if !_running and !place_meeting(x,y,obj_agua) and !place_meeting(x,y,obj_mato) and !noInventario("Botas reforçadas"){
 		global.maxSpeed = 10
 	}
 		global.currentSpeed = lerp(global.currentSpeed,global.maxSpeed,0.8)
@@ -221,6 +226,7 @@ if noInventario("Botas reforçadas")
 	if keyboard_check_pressed(vk_shift) and image_xscale = 1 and candash = true
 	{
 		cooldash = 30
+		global.currentEnergy -= dash
 		sprite_index = spr_jogadorDash
 		if (sprite_index = spr_jogadorDash)
 		{
@@ -236,6 +242,7 @@ if noInventario("Botas reforçadas")
 	if keyboard_check_pressed(vk_shift) and image_xscale = -1 and candash = true
 	{
 		cooldash = 30
+		global.currentEnergy -= dash
 		sprite_index = spr_jogadorDash
 		if (sprite_index = spr_jogadorDash)
 		{

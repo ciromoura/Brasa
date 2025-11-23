@@ -73,8 +73,8 @@ function all_textos(){
 		break
 		
 		case "npcfacao":
-		ds_grid_add_text("Pegue aqui um facao",spr_placeholdernpc,1,"???")
-		ds_grid_add_text("Raimundo obteve um facão.",spr_particulaGrama,1,"Narrador")
+		ds_grid_add_text("Pelo caminho você encontrará muita grama alta. Elas podem dificultar sua passagem, então acho que isso será de grande ajuda.",spr_placeholdernpc,1,"???")
+		ds_grid_add_text("Raimundo obteve um Facão.",spr_particulaGrama,1,"???")
 		if !noInventario("Facão")
 		{
 		array_insert(global.itens,2,"Facão")
@@ -82,18 +82,21 @@ function all_textos(){
 		break
 		
 		case "npcpocao":
-		ds_grid_add_text("Pegue aqui uma poção",spr_placeholdernpc,1,"???")
-		ds_grid_add_text("Raimundo obteve uma poção.",spr_particulaGrama,1,"Narrador")
-		ds_grid_add_text("Aperte F para utilizar a poção.",spr_particulaGrama,1,"Narrador")
-		if !noInventario("Poção")
+		ds_grid_add_text("Creio que está se sentindo cansado. Pegue este remédio, foi feito por povos da região.",spr_placeholdernpc,1,"???")
+		ds_grid_add_text("Dizem que ao tomar, sua energia se recuperará mais rápido, além de se cansar menos ao realizar ações.",spr_placeholdernpc,1,"???")
+		ds_grid_add_text("Raimundo obteve um Remédio indígena.",spr_particulaGrama,1,"Narrador")
+		ds_grid_add_text("Aperte F para beber o remédio.",spr_particulaGrama,1,"Narrador")
+		if !noInventario("Remédio indígena")
 		{
-		array_insert(global.itens,3,"Poção")
+		array_insert(global.itens,3,"Remédio indígena")
 		}
 		break
 		
 		case "npcmoeda":
-		ds_grid_add_text("Pegue aqui a Bolsa do patrão.",spr_placeholdernpc,1,"???")
+		ds_grid_add_text("E aí, Raimundão!",spr_placeholdernpc,1,"???")
+		ds_grid_add_text("Estava andando por aqui e achei uma bolsa usada do patrão. Acredito que ao equipá-la, você passa a ganhar o dobro de moedas.",spr_placeholdernpc,1,"???")
 		ds_grid_add_text("Raimundo obteve a Bolsa do patrão.",spr_particulaGrama,1,"Narrador")
+		ds_grid_add_text("Cuidado para ele não te ver usando!",spr_placeholdernpc,1,"???")
 		if !noInventario("Bolsa do patrão")
 		{
 		obj_coin.bolsadopatrao = true
@@ -102,8 +105,9 @@ function all_textos(){
 		break
 		
 		case "npcbotas":
-		ds_grid_add_text("Pegue aqui umas bota",spr_placeholdernpc,1,"???")
-		ds_grid_add_text("Raimundo obteve umas bota.",spr_particulaGrama,1,"Narrador")
+		ds_grid_add_text("Deve ser desconfortável andar descalço por aí. Pegue essas botas, são de um amigo.",spr_placeholdernpc,1,"???")
+		ds_grid_add_text("Raimundo obteve umas Botas reforçadas.",spr_particulaGrama,1,"Narrador")
+		ds_grid_add_text("Ao equipá-las, você ficará mais rápido, além de substituir sua corrida por arrancadas.",spr_placeholdernpc,1,"???")
 		if !noInventario("Botas reforçadas")
 		{
 		array_insert(global.itens,5,"Botas reforçadas")

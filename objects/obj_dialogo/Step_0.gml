@@ -45,6 +45,26 @@ if keyboard_check_pressed(keybinds.jump)
 				global.pause = false
 			}
 			
+			if npc_nome = "npcbotas"
+			{
+				obj_npcbotas.interagiu = true
+			}
+			
+			if npc_nome = "npcfacao"
+			{
+				obj_npcfacao.interagiu = true
+			}
+			
+			if npc_nome = "npcmoeda"
+			{
+				obj_npcmoeda.interagiu = true
+			}
+			
+			if npc_nome = "npcpocao"
+			{
+				obj_npcpocao.interagiu = true
+			}
+			
 			
 			
 			
