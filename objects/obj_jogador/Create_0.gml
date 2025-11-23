@@ -9,6 +9,8 @@ global.currentEnergy = 100
 global.maxEnergy = 100
 global.noite = 0
 global.money = 0
+global.moedaTreme = 0;
+
 
 
 alturaMaxPulo = -16
