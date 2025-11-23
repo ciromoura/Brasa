@@ -23,6 +23,8 @@ rangeint = 100
 falando = false
 jumps = 1
 seatrepou = false
+cooldash = 30
+candash = true
 
 // Valores de gasto ou ganho de energia/ vida:
 run = 0.09

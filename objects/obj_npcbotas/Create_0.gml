@@ -1,0 +1,2 @@
+nome = "npcbotas"
+isnarrador = false

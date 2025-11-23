@@ -77,7 +77,7 @@ function all_textos(){
 		ds_grid_add_text("Raimundo obteve um facão.",spr_particulaGrama,1,"Narrador")
 		if !noInventario("Facão")
 		{
-		array_insert(global.itens,1,"Facão")
+		array_insert(global.itens,2,"Facão")
 		}
 		break
 		
@@ -87,7 +87,7 @@ function all_textos(){
 		ds_grid_add_text("Aperte F para utilizar a poção.",spr_particulaGrama,1,"Narrador")
 		if !noInventario("Poção")
 		{
-		array_insert(global.itens,2,"Poção")
+		array_insert(global.itens,3,"Poção")
 		}
 		break
 		
@@ -97,7 +97,16 @@ function all_textos(){
 		if !noInventario("Bolsa do patrão")
 		{
 		obj_coin.bolsadopatrao = true
-		array_insert(global.itens,3,"Bolsa do patrão")
+		array_insert(global.itens,4,"Bolsa do patrão")
+		}
+		break
+		
+		case "npcbotas":
+		ds_grid_add_text("Pegue aqui umas bota",spr_placeholdernpc,1,"???")
+		ds_grid_add_text("Raimundo obteve umas bota.",spr_particulaGrama,1,"Narrador")
+		if !noInventario("Botas reforçadas")
+		{
+		array_insert(global.itens,5,"Botas reforçadas")
 		}
 		break
 		

@@ -6,7 +6,7 @@ inputX = keyboard_check(keybinds.right) - keyboard_check(keybinds.left)
 if inputX != 0{
 	image_xscale = inputX
 	var _running = keyboard_check(vk_shift)
-	if _running and global.currentEnergy > run and !place_meeting(x,y,obj_agua) and !place_meeting(x,y,obj_mato){
+	if _running and global.currentEnergy > run and !place_meeting(x,y,obj_agua) and !place_meeting(x,y,obj_mato) and !noInventario("Botas reforçadas"){
 		global.maxSpeed = 14
 		global.currentEnergy -= run
 	}
@@ -205,7 +205,61 @@ if noInventario("Facão")
 	}
 }
 
+#region Dash
 
+if noInventario("Botas reforçadas")
+{
+	cooldash --
+	if cooldash <= 0
+	{
+		candash = true
+	}
+	else
+	{
+		candash = false
+	}
+	if keyboard_check_pressed(vk_shift) and image_xscale = 1 and candash = true
+	{
+		cooldash = 30
+		sprite_index = spr_jogadorDash
+		if (sprite_index = spr_jogadorDash)
+		{
+			image_index = 0
+			if !place_meeting(x+15,y,obj_colisor)
+			{
+				hspeed += 12
+			}
+		}
+	
+	}
+
+	if keyboard_check_pressed(vk_shift) and image_xscale = -1 and candash = true
+	{
+		cooldash = 30
+		sprite_index = spr_jogadorDash
+		if (sprite_index = spr_jogadorDash)
+		{
+			image_index = 0
+			if !place_meeting(x-15,y,obj_colisor)
+			{
+				hspeed -= 12
+			}
+		}
+	
+	}
+
+
+	if place_meeting(x+15,y,obj_colisor)
+	{
+		hspeed = 0
+	}
+	if place_meeting(x-15,y,obj_colisor)
+	{
+		hspeed = 0
+	}
+}
+
+#endregion
 
 
 #endregion

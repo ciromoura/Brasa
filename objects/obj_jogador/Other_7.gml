@@ -1,7 +1,7 @@
-if estado = "atacando"
+if sprite_index = spr_jogadorDash
 {
-	estado = "parado"
-	mask_index = spr_placeholderArrow
+	sprite_index = spr_jogadorParado
 	image_index = 0
+	hspeed = 0
 }
 //identifica quando o sprite "atacando" acaba e volta ao estado normal
