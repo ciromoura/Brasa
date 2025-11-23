@@ -1,5 +1,5 @@
 // Ativar ou desativar pausa
-if room != rm_menu {
+if room != rm_menu and room != rm_introducao {
 	if keyboard_check_pressed(vk_escape) {
 		global.pausemenu = !global.pausemenu
 	}
