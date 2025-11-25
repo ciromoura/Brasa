@@ -34,7 +34,7 @@ walljump = 5
 wallslide = 0.05
 dash = 5
 
-ganhoenergia = 0.03
+ganhoenergia = 0.08
 ganhovida = 0.02
 
 
