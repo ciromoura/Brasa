@@ -16,7 +16,7 @@ if global.pausemenu {
 		}
 
 		draw_set_color(_cor)
-		draw_text_transformed(room_width / 2, 450 + _altura * i, menu[i].texto, _size, _size, 0)
+		draw_text_transformed(display_get_gui_width() / 2, 450 + _altura * i, menu[i].texto, _size, _size, 0)
 	}
 
 
@@ -32,4 +32,3 @@ if global.pausemenu {
 }
 
 }
-

@@ -39,3 +39,4 @@ if global.pausemenu {
 		}
 	}
 }
+draw_set_halign(fa_left)
