@@ -319,7 +319,7 @@ if global.currentEnergy < 100{
 
 #region Poção Indígena
 if noInventario("Poção") and keyboard_check(ord("F")){
-	ganhoenergia = 0.1
+	ganhoenergia = 0.12
 	
 	run = 0.04
 	walljump = 4
