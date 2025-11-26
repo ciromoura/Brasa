@@ -4,7 +4,7 @@
 
 global.maxSpeed = 10
 global.currentSpeed = 0
-global.itens = ["Remédio Indígena","Facão","Chave do armazém"]
+global.itens = [""]
 global.currentEnergy = 100
 global.maxEnergy = 100
 global.noite = 0

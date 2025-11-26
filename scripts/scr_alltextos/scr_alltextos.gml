@@ -55,7 +55,7 @@ function all_textos(){
 		ds_grid_add_text("...?",spr_jogadorParado,0,"Raimundo")
 		if !noInventario("Cartas")
 		{
-		array_insert(global.itens,1,"Cartas")
+		array_push(global.itens,"Cartas")
 		}
 		break
 		
@@ -77,7 +77,7 @@ function all_textos(){
 		ds_grid_add_text("Raimundo obteve um Facão.",spr_particulaGrama,1,"???")
 		if !noInventario("Facão")
 		{
-		array_insert(global.itens,2,"Facão")
+		array_push(global.itens,"Facão")
 		}
 		break
 		
@@ -88,7 +88,7 @@ function all_textos(){
 		ds_grid_add_text("Aperte F para beber o remédio.",spr_particulaGrama,1,"Narrador")
 		if !noInventario("Remédio indígena")
 		{
-		array_insert(global.itens,3,"Remédio indígena")
+		array_push(global.itens,"Remédio indígina")
 		}
 		break
 		
@@ -100,7 +100,7 @@ function all_textos(){
 		if !noInventario("Bolsa do patrão")
 		{
 		obj_coin.bolsadopatrao = true
-		array_insert(global.itens,4,"Bolsa do patrão")
+		array_push(global.itens,"Bolsa do patrão")
 		}
 		break
 		
@@ -110,7 +110,7 @@ function all_textos(){
 		ds_grid_add_text("Ao equipá-las, você ficará mais rápido, além de substituir sua corrida por arrancadas.",spr_placeholdernpc,1,"???")
 		if !noInventario("Botas reforçadas")
 		{
-		array_insert(global.itens,5,"Botas reforçadas")
+		array_push(global.itens,"Botas reforçadas")
 		}
 		break
 		
